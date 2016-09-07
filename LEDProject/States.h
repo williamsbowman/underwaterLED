@@ -3,9 +3,12 @@
 
 
 enum States{
-  Bluetooth_Disconnected,
-  Bluetooth_Connected,
-  Low_Power
+  RGB_Disconnected,
+  RGB_Connected,
+  RGB_Fault,
+  SC_Nominal,
+  SC_Fault,
+  Boot
 };
 
 

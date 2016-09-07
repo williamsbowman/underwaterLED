@@ -45,6 +45,8 @@ struct FlashMemoryData{
 };
 
 extern bool gbl_radioConnectFlag;
+extern bool gbl_RGBdriverFaultFlag;
+extern bool gbl_SCdriverFaultFlag;
 extern bool gbl_systemBootFlag;
 extern struct LEDControl gbl_LEDSettings;
 extern enum States gbl_systemState;

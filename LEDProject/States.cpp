@@ -125,17 +125,17 @@ void checkBootComplete(void){
 }
 
 // What happens in these states
-void blueToothDisconnectedState(void){
-	DEBUG_LF(High,"BLUETOOTH DISCONNECTED STATE");
+void RGBDisconnectedState(void){
+	DEBUG_LF(High,"RGB DISCONNECTED STATE");
 	setRGBColors();
 }
 
-void blueToothConnectedState(void){
-	DEBUG_LF(High,"BLUETOOTH CONNECTED STATE");
+void RGBConnectedState(void){
+	DEBUG_LF(High,"RGB CONNECTED STATE");
 }
 
-void lowPowerState(void){
-	DEBUG_LF(High,"LOW POWER STATE");
+void RGBFaultState(void){
+	DEBUG_LF(High,"RGB FAULT STATE");
  
 }
 
@@ -147,21 +147,37 @@ States checkState(void){ //this function checks the current inputs and determine
   enum States newState;
   checkSensors();
   
+#if RGB_DRIVER
 
-  if (gbl_radioConnectFlag){
-    newState = Bluetooth_Connected;  
+  if (gbl_RGBdriverFaultFlag){
+	  newState = RGB_Fault;
+  }
+
+  else if (gbl_radioConnectFlag){
+    newState = RGB_Connected;
   }
 
   else if (!gbl_radioConnectFlag){
-    newState = Bluetooth_Disconnected;   
+    newState = RGB_Disconnected;
   }
 
   else {
-    newState = Bluetooth_Disconnected;     
+    newState = RGB_Disconnected;
   }
+#endif
   
+if (gbl_SCdriverFaultFlag){
+	newState = SC_Fault;
+}
+
+else{
+	newState = SC_Nominal;
+}
+
+
   return newState;
 }
+
 
 ////////////
 
@@ -171,25 +187,34 @@ gbl_systemState = checkState();
 
 switch (gbl_systemState){
 
-#if RGB_DRIVER
-case Bluetooth_Connected:
-blueToothConnectedState();
+#if RGB_DRIVER  //Three Color Driver States
+case RGB_Connected:
+RGBConnectedState();
 break;
 
 
-case Bluetooth_Disconnected:
-blueToothDisconnectedState();
+case RGB_Disconnected:
+RGBDisconnectedState();
 break;
 
-#endif
 
-case Low_Power:
-lowPowerState();
+case RGB_Fault:
+RGBFaultState();
 break;
 
 default:
-blueToothDisconnectedState();
- break;
+RGBDisconnectedState();
+break;
+#endif
+
+case SC_Nominal:
+
+break;
+
+case SC_Fault:
+
+break;
+
 }
 
 }

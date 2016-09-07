@@ -6,10 +6,14 @@ unsigned long elapsedTimeMs = 0;
 unsigned long startTimeMs = 0;
 unsigned long stopTimeMs = 0;
 
-enum States gbl_systemState = Bluetooth_Disconnected;
+enum States gbl_systemState = Boot;
 
 bool gbl_systemBootFlag = false;
+bool gbl_RGBdriverFaultFlag = false; //no faults on RGB Driver
 bool gbl_radioConnectFlag = false; //not connected
+
+bool gbl_SCdriverFaultFlag = false;
+
 struct LEDControl gbl_LEDSettings = {0, 0, 0};
 unsigned long gbl_systemTimerinMs = 0;
 

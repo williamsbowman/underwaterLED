@@ -7,7 +7,7 @@
 
 
 #define SOFTWARE_VERSION "0.0.0"
-#define RGB_DRIVER	true //true means RGB driver type and false if single driver type
+#define RGB_DRIVER	false //true means RGB driver type and false if single driver type
 
 //This sets the default/startup values of the certain settings
 

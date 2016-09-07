@@ -24,6 +24,9 @@ void loop() {
 #endif
 
   checkBootComplete();
+  
+  //Main program start here:
+  
   gbl_systemTimerinMs = millis();
  // checkDebugSendTime();
   
