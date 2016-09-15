@@ -25,14 +25,15 @@ void loop() {
 
   checkBootComplete();
   
-  //Main program start here:
+  //Main program starts here:
   
-  gbl_systemTimerinMs = millis();
+ gbl_systemTimerinMs = millis();
  // checkDebugSendTime();
   
 
   if (gbl_systemBootFlag){
 	  setState();
+	  
 
 	  //TERMINAL_LF(TestTimer.getElapsedTimeMs()); //REMOVE
   }

@@ -9,6 +9,14 @@
 void setRedPWM(char percent){
   analogWrite(RED_LED_PIN, (char)(255*(float)percent/100));  
 }
+
+
+#if RGB_DRIVER
+
+void setRedPWM(char percent){
+  analogWrite(RED_LED_PIN, (char)(255*(float)percent/100));
+}
+
 void setGreenPWM(char percent){
   analogWrite(GREEN_LED_PIN, (char)(255*(float)percent/100)); 
 }
@@ -17,9 +25,9 @@ void setBluePWM(char percent){
 }
 
 void setRGBColors(void){
-  setRedPWM(gbl_LEDSettings.redIntensity);
-  setGreenPWM(gbl_LEDSettings.greenIntensity);
-  setBluePWM(gbl_LEDSettings.blueIntensity);
+  setRedPWM(gbl_RGBStatus.redIntensity);
+  setGreenPWM(gbl_RGBStatus.greenIntensity);
+  setBluePWM(gbl_RGBStatus.blueIntensity);
 }
 
 void onConnectFlash(void){
@@ -37,4 +45,11 @@ void onDisconnectFlash(void){
   delay(300);
   setRedPWM(0);
 }
+
+#endif
+
+void setSCIntensity(void){
+	setRedPWM(gbl_SCStatus.LEDIntensity);
+}
+
 

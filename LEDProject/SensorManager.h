@@ -34,10 +34,7 @@ int getLEDTempinC(void);
 int getInputVoltageinmV(void);
 
 void checkSensors(void);
-void reactToSensors(void);
 
-void ledOverTempBehavior(void);
-void inputVoltageErrorBehavior(void);
 
 
 #endif

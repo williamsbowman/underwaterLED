@@ -9,12 +9,15 @@ unsigned long stopTimeMs = 0;
 enum States gbl_systemState = Boot;
 
 bool gbl_systemBootFlag = false;
-bool gbl_RGBdriverFaultFlag = false; //no faults on RGB Driver
-bool gbl_radioConnectFlag = false; //not connected
+//bool gbl_RGBdriverFaultFlag = false; //no faults on RGB Driver
+//bool gbl_radioConnectFlag = false; //not connected
 
-bool gbl_SCdriverFaultFlag = false;
+//bool gbl_SCdriverFaultFlag = false;
+#if RGB_DRIVER
+struct RGBStatus gbl_RGBStatus = {0, 0, 0, false, false};
+#endif
 
-struct LEDControl gbl_LEDSettings = {0, 0, 0};
+struct SCStatus gbl_SCStatus = {0,false};
 unsigned long gbl_systemTimerinMs = 0;
 
 struct FlashMemoryData FlashMemoryData = {};

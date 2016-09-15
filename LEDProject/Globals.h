@@ -44,14 +44,41 @@ struct FlashMemoryData{
   unsigned int debugDataRefreshRateMs;
 };
 
-extern bool gbl_radioConnectFlag;
-extern bool gbl_RGBdriverFaultFlag;
-extern bool gbl_SCdriverFaultFlag;
+#if RGB_DRIVER
+struct RGBStatus{
+
+	char redIntensity;  //These are in %'s
+	char greenIntensity;
+	char blueIntensity;
+	bool radioConnectFlag;
+	bool gbl_RGBdriverFaultFlag;
+
+};
+
+#endif
+
+struct SCStatus{
+
+	char LEDIntensity;
+	bool SCdriverFaultFlag;
+};
+
+
+
+
+
 extern bool gbl_systemBootFlag;
-extern struct LEDControl gbl_LEDSettings;
+
+#if RGB_DRIVER
+extern struct RGBStatus gbl_RGBStatus;
+#endif
+
+extern struct SCStatus gbl_SCStatus;
+
 extern enum States gbl_systemState;
 extern struct FlashMemoryData FlashMemoryData;
 extern unsigned long gbl_systemTimerinMs;
+
 extern void loadFlashMemoryValues(void);
 extern void writeNewTimeofUseToFlash(void);
 extern void writeAllSettingsToFlash(void);

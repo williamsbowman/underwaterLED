@@ -8,12 +8,14 @@
 #include "SensorManager.h"
 #include "HardwareConfiguration.h"
 #include "SerialDebug.h"
+#include "FaultHandler.h"
 
 
 #if RGB_DRIVER
 #include <RFduinoBLE.h>
 #endif
 
+static bool newStatePrintFlag = false;
 
 //struct FlashMemoryData FlashMemoryData;
 class TimerClass StartupTimer;
@@ -21,7 +23,7 @@ class TimerClass StartupTimer;
 #if RGB_DRIVER
 
 void onRadioConnect(void){
- gbl_radioConnectFlag = true;
+ gbl_RGBStatus.radioConnectFlag = true;
  onConnectFlash(); 
  DEBUG(Medium,"Bluetooth Connected - Timestamp: ");
  DEBUG_LF(Medium,gbl_systemTimerinMs);
@@ -65,8 +67,12 @@ void initializeSystem(void){
   Serial.begin(9600);
   
   setRedPWM(0);
+
+#if RGB_DRIVER
+  setRedPWM(0);
   setGreenPWM(0);
   setBluePWM(0);
+#endif
 
   //Read items from flash
   loadFlashMemoryValues();
@@ -124,19 +130,34 @@ void checkBootComplete(void){
   }
 }
 
+#if RGB_DRIVER
 // What happens in these states
+
 void RGBDisconnectedState(void){
-	DEBUG_LF(High,"RGB DISCONNECTED STATE");
+	if(newStatePrintFlag) DEBUG_LF(High,"RGB DISCONNECTED STATE");
 	setRGBColors();
 }
 
 void RGBConnectedState(void){
-	DEBUG_LF(High,"RGB CONNECTED STATE");
+	if(newStatePrintFlag) DEBUG_LF(High,"RGB CONNECTED STATE");
 }
 
 void RGBFaultState(void){
-	DEBUG_LF(High,"RGB FAULT STATE");
+	if(newStatePrintFlag) DEBUG_LF(High,"RGB FAULT STATE");
  
+}
+
+#endif
+
+void SCNominalState(void){
+	if(newStatePrintFlag) DEBUG_LF(High,"SINGLE DRIVER NOMINAL STATE");
+	setSCIntensity();
+	checkSensors();
+}
+
+void SCFaultState(void){
+	if(newStatePrintFlag) DEBUG_LF(High,"SINGLE DRIVER FAULT STATE");
+	processSCFault();
 }
 
 /////////////
@@ -144,29 +165,32 @@ void RGBFaultState(void){
 //How to get into these states
 
 States checkState(void){ //this function checks the current inputs and determines the current state
-  enum States newState;
+
+	enum States newState;
+
   checkSensors();
   
 #if RGB_DRIVER
 
-  if (gbl_RGBdriverFaultFlag){
+  if (gbl_RGBStatus.RGBdriverFaultFlag){
 	  newState = RGB_Fault;
   }
 
-  else if (gbl_radioConnectFlag){
+  else if (gbl_RGBStatus.radioConnectFlag){
     newState = RGB_Connected;
   }
 
-  else if (!gbl_radioConnectFlag){
+  else if (!gbl_RGBStatus.radioConnectFlag){
     newState = RGB_Disconnected;
   }
 
   else {
     newState = RGB_Disconnected;
   }
-#endif
+
+#else
   
-if (gbl_SCdriverFaultFlag){
+if (gbl_SCStatus.SCdriverFaultFlag){
 	newState = SC_Fault;
 }
 
@@ -174,8 +198,10 @@ else{
 	newState = SC_Nominal;
 }
 
+#endif
 
   return newState;
+
 }
 
 
@@ -183,39 +209,49 @@ else{
 
 //Putting system into these states
 void setState(void){
-gbl_systemState = checkState(); 
+
+	static enum States prevState;
+
+	gbl_systemState = checkState();
+
+	if (gbl_systemState != prevState) newStatePrintFlag = true;
 
 switch (gbl_systemState){
 
-#if RGB_DRIVER  //Three Color Driver States
+#if RGB_DRIVER
 case RGB_Connected:
-RGBConnectedState();
+	RGBConnectedState();
 break;
 
 
 case RGB_Disconnected:
-RGBDisconnectedState();
+	RGBDisconnectedState();
 break;
 
 
 case RGB_Fault:
-RGBFaultState();
+	RGBFaultState();
 break;
 
 default:
-RGBDisconnectedState();
+	RGBDisconnectedState();
 break;
-#endif
+
+#else
 
 case SC_Nominal:
-
+	SCNominalState();
 break;
 
 case SC_Fault:
-
+	SCFaultState();
 break;
 
+#endif
 }
+
+newStatePrintFlag = false;
+prevState = gbl_systemState;
 
 }
 
