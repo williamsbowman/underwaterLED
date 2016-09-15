@@ -17,7 +17,7 @@
 
 static bool newStatePrintFlag = false;
 
-//struct FlashMemoryData FlashMemoryData;
+
 class TimerClass StartupTimer;
 
 #if RGB_DRIVER
@@ -92,12 +92,20 @@ void initializeSystem(void){
 
 void printStartUpData(void){   
 
+#if RGB_DRIVER
 	TERMINAL_LF(row1);//delay(10);
 	TERMINAL_LF(row2);//delay(10);
 	TERMINAL_LF(row3);//delay(10);
 	TERMINAL_LF(row4);//delay(10);
 	TERMINAL_LF(row5);//delay(10);
 	TERMINAL_LF(row6);//delay(10);
+
+#else
+	TERMINAL_LF("DAUNTLESS CONCEPTS");
+
+#endif
+
+
 	TERMINAL("SOFTWARE VERSION: " SOFTWARE_VERSION " - ");
 #if RGB_DRIVER
   TERMINAL_LF("RGB LED DRIVER");
