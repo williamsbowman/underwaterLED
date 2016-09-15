@@ -23,7 +23,8 @@ public:
 };
 
 struct FlashMemoryData{
-  char driverSerialNumber[12];
+  char partNumber[10];
+  char driverSerialNumber[8];
   char driverName[11];
   char redLEDValue;
   char greenLEDValue;
