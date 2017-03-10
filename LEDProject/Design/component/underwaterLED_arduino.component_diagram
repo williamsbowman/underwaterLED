@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:component="http://www.muml.org/pim/component/1.0.0" xmlns:modelinstance="http://www.muml.org/modelinstance/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://www.muml.org/pim/component/1.0.0 http://www.muml.org/pim/1.0.0#//component http://www.muml.org/modelinstance/1.0.0 http://www.muml.org/core/1.0.0#//modelinstance" xmi:id="_7FDk4AVLEeeI17zGpXrajA" type="Component" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_ucsHcAVREeeI17zGpXrajA" type="2006" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ucsHcgVREeeI17zGpXrajA" type="5028"/>
+    <element xmi:type="component:StaticAtomicComponent" href="../underwaterLED_arduino.muml#_uciWcAVREeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ucsHcQVREeeI17zGpXrajA" x="24" y="192"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_wr_3oAVREeeI17zGpXrajA" type="2006" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_wr_3ogVREeeI17zGpXrajA" type="5028"/>
+    <element xmi:type="component:StaticAtomicComponent" href="../underwaterLED_arduino.muml#_wr370AVREeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_wr_3oQVREeeI17zGpXrajA" x="24" y="84"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_1t7gcQVREeeI17zGpXrajA" type="2006" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_1t7gcwVREeeI17zGpXrajA" type="5028"/>
+    <children xmi:type="notation:Shape" xmi:id="_3wPWcAVREeeI17zGpXrajA" type="3011" fontName="Segoe UI" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_3wPWcgVREeeI17zGpXrajA" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_3wPWcwVREeeI17zGpXrajA" x="-6" y="29"/>
+      </children>
+      <element xmi:type="component:ContinuousPort" href="../underwaterLED_arduino.muml#_3wDJMAVREeeI17zGpXrajA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_3wPWcQVREeeI17zGpXrajA"/>
+    </children>
+    <element xmi:type="component:StaticAtomicComponent" href="../underwaterLED_arduino.muml#_1t7gcAVREeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_1t7gcgVREeeI17zGpXrajA" x="24" y="312"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_7aEj4AVREeeI17zGpXrajA" type="2006" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_7aEj4QVREeeI17zGpXrajA" type="5028"/>
+    <children xmi:type="notation:Shape" xmi:id="_7aEj4gVREeeI17zGpXrajA" type="3011" fontName="Segoe UI" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_7aEj4wVREeeI17zGpXrajA" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_7aEj5AVREeeI17zGpXrajA" x="-6" y="29"/>
+      </children>
+      <element xmi:type="component:ContinuousPort" href="../underwaterLED_arduino.muml#_7Z4WoQVREeeI17zGpXrajA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7aEj5QVREeeI17zGpXrajA"/>
+    </children>
+    <element xmi:type="component:StaticAtomicComponent" href="../underwaterLED_arduino.muml#_7Z4WoAVREeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_7aEj5gVREeeI17zGpXrajA" x="336" y="312"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_9bheQgVREeeI17zGpXrajA" type="2006" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_9bheQwVREeeI17zGpXrajA" type="5028"/>
+    <children xmi:type="notation:Shape" xmi:id="_9bheRAVREeeI17zGpXrajA" type="3011" fontName="Segoe UI" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_9bheRQVREeeI17zGpXrajA" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_9bheRgVREeeI17zGpXrajA" x="-6" y="29"/>
+      </children>
+      <element xmi:type="component:ContinuousPort" href="../underwaterLED_arduino.muml#_9bheQQVREeeI17zGpXrajA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9bheRwVREeeI17zGpXrajA"/>
+    </children>
+    <element xmi:type="component:StaticAtomicComponent" href="../underwaterLED_arduino.muml#_9bheQAVREeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_9bheSAVREeeI17zGpXrajA" x="180" y="312"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_Bwf6cAVSEeeI17zGpXrajA" type="2005" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_Bwf6cgVSEeeI17zGpXrajA" type="5021"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_Bwf6cwVSEeeI17zGpXrajA" type="7005">
+      <children xmi:type="notation:Shape" xmi:id="_cq4dQAVSEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_cq4dQgVSEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_dpASYAVSEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_dpGZAAVSEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_dpGZAQVSEeeI17zGpXrajA" x="11" y="27"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_dnw8QAVSEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_dpASYQVSEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_cqsQAAVSEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cq4dQQVSEeeI17zGpXrajA" x="48" y="20"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_flAsEgVSEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_flAsFAVSEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_ilvSIAVSEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_ilvSIgVSEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_ilvSIwVSEeeI17zGpXrajA" x="12" y="35"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_ikmCoAVSEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ilvSIQVSEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_fk6lcAVSEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_flAsEwVSEeeI17zGpXrajA" x="208" y="24" width="120" height="48"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_kQBptAVSEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_kQBptgVSEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_lDixUAVSEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_lDixUgVSEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_lDixUwVSEeeI17zGpXrajA" x="5" y="22"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_lCHN8AVSEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_lDixUQVSEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_kQBpsAVSEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kQBptQVSEeeI17zGpXrajA" x="66" y="121"/>
+      </children>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_vNHpYAVSEeeI17zGpXrajA" type="3011" fontName="Segoe UI" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_vNHpYgVSEeeI17zGpXrajA" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_vNHpYwVSEeeI17zGpXrajA" x="25" y="24"/>
+      </children>
+      <element xmi:type="component:ContinuousPort" href="../underwaterLED_arduino.muml#_vM-fcAVSEeeI17zGpXrajA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_vNHpYQVSEeeI17zGpXrajA"/>
+    </children>
+    <element xmi:type="component:StaticStructuredComponent" href="../underwaterLED_arduino.muml#_BwZz0AVSEeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Bwf6cQVSEeeI17zGpXrajA" x="12" y="444" width="387" height="260"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_TkGe8AVSEeeI17zGpXrajA" type="2006" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_TkGe8gVSEeeI17zGpXrajA" type="5028"/>
+    <children xmi:type="notation:Shape" xmi:id="_VyWfMAVSEeeI17zGpXrajA" type="3011" fontName="Segoe UI" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_VyWfMgVSEeeI17zGpXrajA" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_VyWfMwVSEeeI17zGpXrajA" y="5"/>
+      </children>
+      <element xmi:type="component:ContinuousPort" href="../underwaterLED_arduino.muml#_VyKR8AVSEeeI17zGpXrajA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_VyWfMQVSEeeI17zGpXrajA"/>
+    </children>
+    <element xmi:type="component:StaticAtomicComponent" href="../underwaterLED_arduino.muml#_Tj6RsAVSEeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_TkGe8QVSEeeI17zGpXrajA" x="492" y="312"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_g6pz8QVTEeeI17zGpXrajA" type="2005" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_g6pz8gVTEeeI17zGpXrajA" type="5021"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_g6pz8wVTEeeI17zGpXrajA" type="7005">
+      <children xmi:type="notation:Shape" xmi:id="_g6pz9AVTEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_g6pz9QVTEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_g6pz9gVTEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_g6pz9wVTEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_g6pz-AVTEeeI17zGpXrajA" x="11" y="27"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_g6pz5gVTEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6pz-QVTEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_g6pz4gVTEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6pz-gVTEeeI17zGpXrajA" x="48" y="20"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_g6pz-wVTEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_g6pz_AVTEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_g6pz_QVTEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_g6pz_gVTEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_g6pz_wVTEeeI17zGpXrajA" x="12" y="35"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_g6pz6wVTEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6p0AAVTEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_g6pz5wVTEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6p0AQVTEeeI17zGpXrajA" x="208" y="24" width="120" height="48"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_g6p0AgVTEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_g6p0AwVTEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_g6p0BAVTEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_g6p0BQVTEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_g6p0BgVTEeeI17zGpXrajA" x="5" y="22"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_g6pz8AVTEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6p0BwVTEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_g6pz7AVTEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6p0CAVTEeeI17zGpXrajA" x="66" y="121"/>
+      </children>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_g6p0CQVTEeeI17zGpXrajA" type="3011" fontName="Segoe UI" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_g6p0CgVTEeeI17zGpXrajA" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_g6p0CwVTEeeI17zGpXrajA" x="25" y="24"/>
+      </children>
+      <element xmi:type="component:ContinuousPort" href="../underwaterLED_arduino.muml#_g6pz4QVTEeeI17zGpXrajA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6p0DAVTEeeI17zGpXrajA"/>
+    </children>
+    <element xmi:type="component:StaticStructuredComponent" href="../underwaterLED_arduino.muml#_g6pz4AVTEeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_g6p0DQVTEeeI17zGpXrajA" x="420" y="444" width="387" height="260"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_nR5CwAVTEeeI17zGpXrajA" type="2005" fontName="Segoe UI" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_nR5CwQVTEeeI17zGpXrajA" type="5021"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_nR5CwgVTEeeI17zGpXrajA" type="7005">
+      <children xmi:type="notation:Shape" xmi:id="_nR5CwwVTEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nR5CxAVTEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_nR5CxQVTEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_nR5CxgVTEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_nR5CxwVTEeeI17zGpXrajA" x="11" y="27"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_nRy8JgVTEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5CyAVTEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_nRy8IgVTEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5CyQVTEeeI17zGpXrajA" x="48" y="20"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nR5CygVTEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nR5CywVTEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_nR5CzAVTEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_nR5CzQVTEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_nR5CzgVTEeeI17zGpXrajA" x="12" y="35"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_nRy8KwVTEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5CzwVTEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_nRy8JwVTEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5C0AVTEeeI17zGpXrajA" x="208" y="24" width="120" height="48"/>
+      </children>
+      <children xmi:type="notation:Shape" xmi:id="_nR5C0QVTEeeI17zGpXrajA" type="3012" fontName="Segoe UI" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_nR5C0gVTEeeI17zGpXrajA" type="5017"/>
+        <children xmi:type="notation:Shape" xmi:id="_nR5C0wVTEeeI17zGpXrajA" type="3022" fontName="Segoe UI" lineColor="0">
+          <children xmi:type="notation:DecorationNode" xmi:id="_nR5C1AVTEeeI17zGpXrajA" type="5034">
+            <layoutConstraint xmi:type="notation:Location" xmi:id="_nR5C1QVTEeeI17zGpXrajA" x="5" y="22"/>
+          </children>
+          <element xmi:type="component:PortPart" href="../underwaterLED_arduino.muml#_nRy8MAVTEeeI17zGpXrajA"/>
+          <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5C1gVTEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="component:ComponentPart" href="../underwaterLED_arduino.muml#_nRy8LAVTEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5C1wVTEeeI17zGpXrajA" x="66" y="121"/>
+      </children>
+    </children>
+    <children xmi:type="notation:Shape" xmi:id="_nR5C2AVTEeeI17zGpXrajA" type="3011" fontName="Segoe UI" lineColor="0">
+      <children xmi:type="notation:DecorationNode" xmi:id="_nR5C2QVTEeeI17zGpXrajA" type="5013">
+        <layoutConstraint xmi:type="notation:Location" xmi:id="_nR5C2gVTEeeI17zGpXrajA" x="25" y="24"/>
+      </children>
+      <element xmi:type="component:ContinuousPort" href="../underwaterLED_arduino.muml#_nRy8IQVTEeeI17zGpXrajA"/>
+      <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5C2wVTEeeI17zGpXrajA"/>
+    </children>
+    <element xmi:type="component:StaticStructuredComponent" href="../underwaterLED_arduino.muml#_nRy8IAVTEeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_nR5C3AVTEeeI17zGpXrajA" x="828" y="444" width="387" height="260"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_OTU28AVUEeeI17zGpXrajA" type="Text" fontName="Segoe UI" fontHeight="14" bold="true" description="LEDControlManager.h" lineColor="0">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OTU28gVUEeeI17zGpXrajA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_OTU28wVUEeeI17zGpXrajA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_OTU28QVUEeeI17zGpXrajA" x="12" y="276"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_SGRkIAVUEeeI17zGpXrajA" type="Text" fontName="Segoe UI" fontHeight="14" bold="true" description="Globals.h" lineColor="0">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_SGRkIQVUEeeI17zGpXrajA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_SGRkIgVUEeeI17zGpXrajA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_SGRkIwVUEeeI17zGpXrajA" x="12" y="156"/>
+  </children>
+  <children xmi:type="notation:Shape" xmi:id="_ZmfNQAVUEeeI17zGpXrajA" type="Text" fontName="Segoe UI" fontHeight="14" bold="true" description="LedProject.ino" lineColor="0">
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZmfNQQVUEeeI17zGpXrajA" type="DiagramName">
+      <element xsi:nil="true"/>
+    </children>
+    <children xmi:type="notation:BasicDecorationNode" xmi:id="_ZmfNQgVUEeeI17zGpXrajA" type="Description">
+      <element xsi:nil="true"/>
+    </children>
+    <element xsi:nil="true"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ZmfNQwVUEeeI17zGpXrajA" x="12" y="36"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_7FDk4QVLEeeI17zGpXrajA"/>
+  <element xmi:type="modelinstance:ModelElementCategory" href="../underwaterLED_arduino.muml#_g9dtxgVHEeeI17zGpXrajA"/>
+</notation:Diagram>

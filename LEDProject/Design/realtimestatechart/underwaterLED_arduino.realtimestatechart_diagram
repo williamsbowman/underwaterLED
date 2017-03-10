@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:realtimestatechart="http://www.muml.org/pim/realtimestatechart/1.0.0" xsi:schemaLocation="http://www.muml.org/pim/realtimestatechart/1.0.0 http://www.muml.org/pim/1.0.0#//realtimestatechart" xmi:id="_rQTjogVUEeeI17zGpXrajA" type="Real-Time Statechart" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_rRLtYQVUEeeI17zGpXrajA" type="2007" fontName="Segoe UI Semibold" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_rRLtYwVUEeeI17zGpXrajA" type="5061"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rRLtZAVUEeeI17zGpXrajA" type="5062"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_rRLtZQVUEeeI17zGpXrajA" type="7030">
+      <children xmi:type="notation:Shape" xmi:id="_rShKIAVUEeeI17zGpXrajA" type="3032" fontName="Shonar Bangla" lineColor="0">
+        <children xmi:type="notation:DecorationNode" xmi:id="_rShKIgVUEeeI17zGpXrajA" type="5060"/>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rShKIwVUEeeI17zGpXrajA" type="7031">
+          <children xmi:type="notation:Shape" xmi:id="_EUZTMAVVEeeI17zGpXrajA" type="3034" fontName="Segoe UI" lineColor="0">
+            <children xmi:type="notation:DecorationNode" xmi:id="_EUZTMgVVEeeI17zGpXrajA" type="5051"/>
+            <element xmi:type="realtimestatechart:DoEvent" href="../underwaterLED_arduino.muml#_ESRzUAVVEeeI17zGpXrajA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_EUZTMQVVEeeI17zGpXrajA"/>
+          </children>
+          <children xmi:type="notation:Shape" xmi:id="_c5eWEQVWEeeI17zGpXrajA" type="3033" fontName="Segoe UI" lineColor="0">
+            <children xmi:type="notation:DecorationNode" xmi:id="_c5eWEwVWEeeI17zGpXrajA" type="5050"/>
+            <element xmi:type="realtimestatechart:EntryEvent" href="../underwaterLED_arduino.muml#_c5eWEAVWEeeI17zGpXrajA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_c5eWEgVWEeeI17zGpXrajA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rShKJAVUEeeI17zGpXrajA" sorting="Automatic" sortingKeys="default_sorting_key:Ascending"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rShKJQVUEeeI17zGpXrajA"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rShKJgVUEeeI17zGpXrajA" type="7032">
+          <children xmi:type="notation:Node" xmi:id="_WRNzMgVXEeeI17zGpXrajA" type="3042">
+            <children xmi:type="notation:DecorationNode" xmi:id="_WRNzNwVXEeeI17zGpXrajA" type="5063"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_WRNzOAVXEeeI17zGpXrajA" type="5064"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_WRNzOQVXEeeI17zGpXrajA" type="5065"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_WRNzOgVXEeeI17zGpXrajA" type="7037">
+              <children xmi:type="notation:Shape" xmi:id="_WUYb8AVXEeeI17zGpXrajA" type="3043" fontName="Segoe UI" lineColor="0">
+                <children xmi:type="notation:DecorationNode" xmi:id="_WUeikAVXEeeI17zGpXrajA" type="7038">
+                  <children xmi:type="notation:Shape" xmi:id="_WUeikQVXEeeI17zGpXrajA" type="3032" fontName="Segoe UI" lineColor="0">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_WUeikwVXEeeI17zGpXrajA" type="5060"/>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_WUeilAVXEeeI17zGpXrajA" type="7031">
+                      <children xmi:type="notation:Shape" xmi:id="_cHSHUQVaEeeI17zGpXrajA" type="3033" fontName="Segoe UI" lineColor="0">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_cHSHUwVaEeeI17zGpXrajA" type="5050"/>
+                        <element xmi:type="realtimestatechart:EntryEvent" href="../underwaterLED_arduino.muml#_cHSHUAVaEeeI17zGpXrajA"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_cHSHUgVaEeeI17zGpXrajA"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_WUeilQVXEeeI17zGpXrajA" sorting="Automatic" sortingKeys="default_sorting_key:Ascending"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_WUeilgVXEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_WUeilwVXEeeI17zGpXrajA" type="7032">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_WUeimAVXEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_WUeimQVXEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_WUeimgVXEeeI17zGpXrajA" type="7033">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_WUeimwVXEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_WUeinAVXEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_WUeinQVXEeeI17zGpXrajA" type="7034">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_WUeingVXEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_WUeinwVXEeeI17zGpXrajA"/>
+                    </children>
+                    <element xmi:type="realtimestatechart:State" href="../underwaterLED_arduino.muml#_WRNzMQVXEeeI17zGpXrajA"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WUeikgVXEeeI17zGpXrajA" x="6" y="-22" height="92"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_Mwb5IQVaEeeI17zGpXrajA" type="3032" fontName="Segoe UI" lineColor="0">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_Mwb5IwVaEeeI17zGpXrajA" type="5060"/>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_Mwb5JAVaEeeI17zGpXrajA" type="7031">
+                      <children xmi:type="notation:Shape" xmi:id="_449i8QVaEeeI17zGpXrajA" type="3033" fontName="Segoe UI" lineColor="0">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_449i8wVaEeeI17zGpXrajA" type="5050"/>
+                        <element xmi:type="realtimestatechart:EntryEvent" href="../underwaterLED_arduino.muml#_449i8AVaEeeI17zGpXrajA"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_449i8gVaEeeI17zGpXrajA"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_Mwb5JQVaEeeI17zGpXrajA" sorting="Automatic" sortingKeys="default_sorting_key:Ascending"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_Mwb5JgVaEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_Mwb5JwVaEeeI17zGpXrajA" type="7032">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_Mwb5KAVaEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_Mwb5KQVaEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_Mwb5KgVaEeeI17zGpXrajA" type="7033">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_Mwb5KwVaEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_Mwb5LAVaEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_Mwb5LQVaEeeI17zGpXrajA" type="7034">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_Mwb5LgVaEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_Mwb5LwVaEeeI17zGpXrajA"/>
+                    </children>
+                    <element xmi:type="realtimestatechart:State" href="../underwaterLED_arduino.muml#_Mwb5IAVaEeeI17zGpXrajA"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Mwb5IgVaEeeI17zGpXrajA" x="284" y="-11"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_MLPE4AVbEeeI17zGpXrajA" type="3032" fontName="Segoe UI" lineColor="0">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_MLPE4gVbEeeI17zGpXrajA" type="5060"/>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_MLPE4wVbEeeI17zGpXrajA" type="7031">
+                      <children xmi:type="notation:Shape" xmi:id="_Pz1jQQVbEeeI17zGpXrajA" type="3033" fontName="Segoe UI" lineColor="0">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_Pz1jQwVbEeeI17zGpXrajA" type="5050"/>
+                        <element xmi:type="realtimestatechart:EntryEvent" href="../underwaterLED_arduino.muml#_Pz1jQAVbEeeI17zGpXrajA"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_Pz1jQgVbEeeI17zGpXrajA"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_MLPE5AVbEeeI17zGpXrajA" sorting="Automatic" sortingKeys="default_sorting_key:Ascending"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_MLPE5QVbEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_MLPE5gVbEeeI17zGpXrajA" type="7032">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_MLPE5wVbEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_MLPE6AVbEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_MLPE6QVbEeeI17zGpXrajA" type="7033">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_MLPE6gVbEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_MLPE6wVbEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_MLPE7AVbEeeI17zGpXrajA" type="7034">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_MLPE7QVbEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_MLPE7gVbEeeI17zGpXrajA"/>
+                    </children>
+                    <element xmi:type="realtimestatechart:State" href="../underwaterLED_arduino.muml#_MLI-QAVbEeeI17zGpXrajA"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_MLPE4QVbEeeI17zGpXrajA" x="164" y="109"/>
+                  </children>
+                </children>
+                <element xmi:type="realtimestatechart:RealtimeStatechart" href="../underwaterLED_arduino.muml#_WRNzMAVXEeeI17zGpXrajA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WUYb8QVXEeeI17zGpXrajA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_WRNzOwVXEeeI17zGpXrajA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_WRNzPAVXEeeI17zGpXrajA"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_WRNzMwVXEeeI17zGpXrajA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_WRNzNAVXEeeI17zGpXrajA" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_WRNzNQVXEeeI17zGpXrajA" lineColor="0"/>
+            <element xmi:type="realtimestatechart:Region" href="../underwaterLED_arduino.muml#_WRHskAVXEeeI17zGpXrajA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_WRNzNgVXEeeI17zGpXrajA"/>
+          </children>
+          <children xmi:type="notation:Node" xmi:id="_YN7FkwVZEeeI17zGpXrajA" type="3042">
+            <children xmi:type="notation:DecorationNode" xmi:id="_YN7FmAVZEeeI17zGpXrajA" type="5063"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_YN7FmQVZEeeI17zGpXrajA" type="5064"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_YN7FmgVZEeeI17zGpXrajA" type="5065"/>
+            <children xmi:type="notation:DecorationNode" xmi:id="_YN7FmwVZEeeI17zGpXrajA" type="7037">
+              <children xmi:type="notation:Shape" xmi:id="_YQTrMAVZEeeI17zGpXrajA" type="3043" fontName="Segoe UI" lineColor="0">
+                <children xmi:type="notation:DecorationNode" xmi:id="_YQTrMgVZEeeI17zGpXrajA" type="7038">
+                  <children xmi:type="notation:Shape" xmi:id="_YQTrMwVZEeeI17zGpXrajA" type="3032" fontName="Segoe UI" lineColor="0">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_YQTrNQVZEeeI17zGpXrajA" type="5060"/>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_YQTrNgVZEeeI17zGpXrajA" type="7031">
+                      <children xmi:type="notation:Shape" xmi:id="_jq5NQQVbEeeI17zGpXrajA" type="3033" fontName="Segoe UI" lineColor="0">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_jq5NQwVbEeeI17zGpXrajA" type="5050"/>
+                        <element xmi:type="realtimestatechart:EntryEvent" href="../underwaterLED_arduino.muml#_jq5NQAVbEeeI17zGpXrajA"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_jq5NQgVbEeeI17zGpXrajA"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_YQTrNwVZEeeI17zGpXrajA" sorting="Automatic" sortingKeys="default_sorting_key:Ascending"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_YQTrOAVZEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_YQTrOQVZEeeI17zGpXrajA" type="7032">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_YQTrOgVZEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_YQTrOwVZEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_YQTrPAVZEeeI17zGpXrajA" type="7033">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_YQTrPQVZEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_YQTrPgVZEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_YQTrPwVZEeeI17zGpXrajA" type="7034">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_YQTrQAVZEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_YQTrQQVZEeeI17zGpXrajA"/>
+                    </children>
+                    <element xmi:type="realtimestatechart:State" href="../underwaterLED_arduino.muml#_YN7FkgVZEeeI17zGpXrajA"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YQTrNAVZEeeI17zGpXrajA"/>
+                  </children>
+                  <children xmi:type="notation:Shape" xmi:id="_d3vi4AVbEeeI17zGpXrajA" type="3032" fontName="Segoe UI" lineColor="0">
+                    <children xmi:type="notation:DecorationNode" xmi:id="_d3vi4gVbEeeI17zGpXrajA" type="5060"/>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_d3vi4wVbEeeI17zGpXrajA" type="7031">
+                      <children xmi:type="notation:Shape" xmi:id="_ouKS0QVbEeeI17zGpXrajA" type="3033" fontName="Segoe UI" lineColor="0">
+                        <children xmi:type="notation:DecorationNode" xmi:id="_ouKS0wVbEeeI17zGpXrajA" type="5050"/>
+                        <element xmi:type="realtimestatechart:EntryEvent" href="../underwaterLED_arduino.muml#_ouKS0AVbEeeI17zGpXrajA"/>
+                        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_ouKS0gVbEeeI17zGpXrajA"/>
+                      </children>
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_d3vi5AVbEeeI17zGpXrajA" sorting="Automatic" sortingKeys="default_sorting_key:Ascending"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_d3vi5QVbEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_d3vi5gVbEeeI17zGpXrajA" type="7032">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_d3vi5wVbEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_d3vi6AVbEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_d3vi6QVbEeeI17zGpXrajA" type="7033">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_d3vi6gVbEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_d3vi6wVbEeeI17zGpXrajA"/>
+                    </children>
+                    <children xmi:type="notation:DecorationNode" xmi:id="_d3vi7AVbEeeI17zGpXrajA" type="7034">
+                      <styles xmi:type="notation:SortingStyle" xmi:id="_d3vi7QVbEeeI17zGpXrajA"/>
+                      <styles xmi:type="notation:FilteringStyle" xmi:id="_d3vi7gVbEeeI17zGpXrajA"/>
+                    </children>
+                    <element xmi:type="realtimestatechart:State" href="../underwaterLED_arduino.muml#_d3tGoAVbEeeI17zGpXrajA"/>
+                    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_d3vi4QVbEeeI17zGpXrajA" x="368" y="9"/>
+                  </children>
+                </children>
+                <element xmi:type="realtimestatechart:RealtimeStatechart" href="../underwaterLED_arduino.muml#_YN7FkQVZEeeI17zGpXrajA"/>
+                <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YQTrMQVZEeeI17zGpXrajA"/>
+              </children>
+              <styles xmi:type="notation:SortingStyle" xmi:id="_YN7FnAVZEeeI17zGpXrajA"/>
+              <styles xmi:type="notation:FilteringStyle" xmi:id="_YN7FnQVZEeeI17zGpXrajA"/>
+            </children>
+            <styles xmi:type="notation:DescriptionStyle" xmi:id="_YN7FlAVZEeeI17zGpXrajA"/>
+            <styles xmi:type="notation:FontStyle" xmi:id="_YN7FlQVZEeeI17zGpXrajA" fontName="Segoe UI"/>
+            <styles xmi:type="notation:LineStyle" xmi:id="_YN7FlgVZEeeI17zGpXrajA" lineColor="0"/>
+            <element xmi:type="realtimestatechart:Region" href="../underwaterLED_arduino.muml#_YN7FkAVZEeeI17zGpXrajA"/>
+            <layoutConstraint xmi:type="notation:Bounds" xmi:id="_YN7FlwVZEeeI17zGpXrajA"/>
+          </children>
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rShKJwVUEeeI17zGpXrajA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rShKKAVUEeeI17zGpXrajA"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rShKKQVUEeeI17zGpXrajA" type="7033">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rShKKgVUEeeI17zGpXrajA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rShKKwVUEeeI17zGpXrajA"/>
+        </children>
+        <children xmi:type="notation:DecorationNode" xmi:id="_rShKLAVUEeeI17zGpXrajA" type="7034">
+          <styles xmi:type="notation:SortingStyle" xmi:id="_rShKLQVUEeeI17zGpXrajA"/>
+          <styles xmi:type="notation:FilteringStyle" xmi:id="_rShKLgVUEeeI17zGpXrajA"/>
+        </children>
+        <element xmi:type="realtimestatechart:State" href="../underwaterLED_arduino.muml#_rQTjoQVUEeeI17zGpXrajA"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rShKIQVUEeeI17zGpXrajA" x="-3" y="20" width="867" height="531"/>
+      </children>
+    </children>
+    <element xmi:type="realtimestatechart:RealtimeStatechart" href="../underwaterLED_arduino.muml#_rQTjoAVUEeeI17zGpXrajA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rRLtYgVUEeeI17zGpXrajA" x="-108" width="1225" height="805"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_rQTjowVUEeeI17zGpXrajA"/>
+  <element xmi:type="realtimestatechart:RealtimeStatechart" href="../underwaterLED_arduino.muml#_rQTjoAVUEeeI17zGpXrajA"/>
+  <edges xmi:type="notation:Connector" xmi:id="_--evsAVaEeeI17zGpXrajA" type="4003" source="_WUeikQVXEeeI17zGpXrajA" target="_Mwb5IQVaEeeI17zGpXrajA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_--evswVaEeeI17zGpXrajA" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_--evtAVaEeeI17zGpXrajA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_--evtQVaEeeI17zGpXrajA" type="6006">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_--evtgVaEeeI17zGpXrajA" x="-10" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_--evsQVaEeeI17zGpXrajA" fontName="Segoe UI"/>
+    <element xmi:type="realtimestatechart:Transition" href="../underwaterLED_arduino.muml#_--SicAVaEeeI17zGpXrajA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_--evsgVaEeeI17zGpXrajA" points="[0, -22, -79, -6]$[0, -22, -79, -6]$[14, -22, -65, -6]$[74, -22, -5, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="__CBy8AVaEeeI17zGpXrajA" id="(1.0,0.4891304347826087)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="__CBy8QVaEeeI17zGpXrajA" id="(0.021551724137931036,0.2465753424657534)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_VBc3oQVbEeeI17zGpXrajA" type="4003" source="_MLPE4AVbEeeI17zGpXrajA" target="_WUeikQVXEeeI17zGpXrajA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_VBc3pAVbEeeI17zGpXrajA" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VBc3pQVbEeeI17zGpXrajA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_VBc3pgVbEeeI17zGpXrajA" type="6006">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_VBc3pwVbEeeI17zGpXrajA" x="-10" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_VBc3ogVbEeeI17zGpXrajA" fontName="Segoe UI"/>
+    <element xmi:type="realtimestatechart:Transition" href="../underwaterLED_arduino.muml#_VBc3oAVbEeeI17zGpXrajA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_VBc3owVbEeeI17zGpXrajA" points="[-3, -7, 30, 78]$[-6, -93, 27, -8]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VEXBsAVbEeeI17zGpXrajA" id="(0.28272251308900526,0.136986301369863)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_VEXBsQVbEeeI17zGpXrajA" id="(0.8235294117647058,0.29347826086956524)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_WfbRgQVbEeeI17zGpXrajA" type="4003" source="_Mwb5IQVaEeeI17zGpXrajA" target="_WUeikQVXEeeI17zGpXrajA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_WfbRhAVbEeeI17zGpXrajA" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WfbRhQVbEeeI17zGpXrajA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_WfbRhgVbEeeI17zGpXrajA" type="6006">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_WfbRhwVbEeeI17zGpXrajA" x="-10" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_WfbRggVbEeeI17zGpXrajA" fontName="Segoe UI"/>
+    <element xmi:type="realtimestatechart:Transition" href="../underwaterLED_arduino.muml#_WfbRgAVbEeeI17zGpXrajA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_WfbRgwVbEeeI17zGpXrajA" points="[-18, 3, 66, 1]$[-83, -12, 1, -14]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WiSYQAVbEeeI17zGpXrajA" id="(0.10344827586206896,0.2465753424657534)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_WiSYQQVbEeeI17zGpXrajA" id="(0.9362745098039216,0.34782608695652173)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_XVYCEAVbEeeI17zGpXrajA" type="4003" source="_Mwb5IQVaEeeI17zGpXrajA" target="_MLPE4AVbEeeI17zGpXrajA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_XVYCEwVbEeeI17zGpXrajA" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XVYCFAVbEeeI17zGpXrajA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_XVYCFQVbEeeI17zGpXrajA" type="6006">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_XVYCFgVbEeeI17zGpXrajA" x="-10" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_XVYCEQVbEeeI17zGpXrajA" fontName="Segoe UI"/>
+    <element xmi:type="realtimestatechart:Transition" href="../underwaterLED_arduino.muml#_XVR7cAVbEeeI17zGpXrajA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_XVYCEgVbEeeI17zGpXrajA" points="[-8, 45, 8, -39]$[-15, 81, 1, -3]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XYJCMAVbEeeI17zGpXrajA" id="(0.16379310344827586,0.1780821917808219)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_XYJCMQVbEeeI17zGpXrajA" id="(0.7172774869109948,0.0684931506849315)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_ZU4bsQVbEeeI17zGpXrajA" type="4003" source="_MLPE4AVbEeeI17zGpXrajA" target="_Mwb5IQVaEeeI17zGpXrajA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZU-iUAVbEeeI17zGpXrajA" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZU-iUQVbEeeI17zGpXrajA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_ZU-iUgVbEeeI17zGpXrajA" type="6006">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_ZU-iUwVbEeeI17zGpXrajA" x="-10" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_ZU4bsgVbEeeI17zGpXrajA" fontName="Segoe UI"/>
+    <element xmi:type="realtimestatechart:Transition" href="../underwaterLED_arduino.muml#_ZU4bsAVbEeeI17zGpXrajA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_ZU4bswVbEeeI17zGpXrajA" points="[3, -9, -65, 84]$[-48, -99, -116, -6]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_ZYESkAVbEeeI17zGpXrajA" id="(0.8795811518324608,0.1232876712328767)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_uWLEMQVbEeeI17zGpXrajA" type="4003" source="_YQTrMwVZEeeI17zGpXrajA" target="_d3vi4AVbEeeI17zGpXrajA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_uWLENAVbEeeI17zGpXrajA" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uWLENQVbEeeI17zGpXrajA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_uWLENgVbEeeI17zGpXrajA" type="6006">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_uWLENwVbEeeI17zGpXrajA" x="-10" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_uWLEMgVbEeeI17zGpXrajA" fontName="Segoe UI"/>
+    <element xmi:type="realtimestatechart:Transition" href="../underwaterLED_arduino.muml#_uWLEMAVbEeeI17zGpXrajA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_uWLEMwVbEeeI17zGpXrajA" points="[29, -11, -131, 1]$[32, -12, -128, 0]$[140, -12, -20, 0]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uZIRkAVbEeeI17zGpXrajA" id="(0.8871595330739299,0.4186046511627907)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_uZIRkQVbEeeI17zGpXrajA" id="(0.1,0.2054794520547945)"/>
+  </edges>
+  <edges xmi:type="notation:Connector" xmi:id="_u8zmYQVbEeeI17zGpXrajA" type="4003" source="_d3vi4AVbEeeI17zGpXrajA" target="_YQTrMwVZEeeI17zGpXrajA" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_u8zmZAVbEeeI17zGpXrajA" type="6005">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_u8zmZQVbEeeI17zGpXrajA" y="-20"/>
+    </children>
+    <children xmi:type="notation:DecorationNode" xmi:id="_u8zmZgVbEeeI17zGpXrajA" type="6006">
+      <layoutConstraint xmi:type="notation:Location" xmi:id="_u8zmZwVbEeeI17zGpXrajA" x="-10" y="20"/>
+    </children>
+    <styles xmi:type="notation:FontStyle" xmi:id="_u8zmYgVbEeeI17zGpXrajA" fontName="Segoe UI"/>
+    <element xmi:type="realtimestatechart:Transition" href="../underwaterLED_arduino.muml#_u8zmYAVbEeeI17zGpXrajA"/>
+    <bendpoints xmi:type="notation:RelativeBendpoints" xmi:id="_u8zmYwVbEeeI17zGpXrajA" points="[-13, 5, 155, 1]$[-168, -27, 0, -31]"/>
+    <sourceAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u_0eIAVbEeeI17zGpXrajA" id="(0.055,0.3561643835616438)"/>
+    <targetAnchor xmi:type="notation:IdentityAnchor" xmi:id="_u_0eIQVbEeeI17zGpXrajA" id="(0.9494163424124513,0.4418604651162791)"/>
+  </edges>
+</notation:Diagram>

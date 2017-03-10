@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<modelinstance:RootNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:component="http://www.muml.org/pim/component/1.0.0" xmlns:instance="http://www.muml.org/pim/instance/1.0.0" xmlns:modelinstance="http://www.muml.org/modelinstance/1.0.0" xmlns:realtimestatechart="http://www.muml.org/pim/realtimestatechart/1.0.0" xmlns:sda="http://www.muml.org/storydiagram/activities/1.0.0" xmlns:types="http://www.muml.org/pim/types/1.0.0" xmi:id="_g9dtwAVHEeeI17zGpXrajA">
+  <categories xmi:id="_g9dtwQVHEeeI17zGpXrajA" key="org.muml.types.category" name="types"/>
+  <categories xmi:id="_g9dtwgVHEeeI17zGpXrajA" key="org.muml.pim.realtimestatechart.category" name="realtimestatechart">
+    <modelElements xsi:type="realtimestatechart:RealtimeStatechart" xmi:id="_rQTjoAVUEeeI17zGpXrajA" name="statechart">
+      <states xmi:id="_rQTjoQVUEeeI17zGpXrajA" name="initializeSystem" initial="true">
+        <embeddedRegions xmi:id="_WRHskAVXEeeI17zGpXrajA" priority="1">
+          <embeddedStatechart xmi:id="_WRNzMAVXEeeI17zGpXrajA" name="RGB System">
+            <transitions xmi:id="_--SicAVaEeeI17zGpXrajA" priority="1" target="_Mwb5IAVaEeeI17zGpXrajA" source="_WRNzMQVXEeeI17zGpXrajA"/>
+            <transitions xmi:id="_VBc3oAVbEeeI17zGpXrajA" priority="1" target="_WRNzMQVXEeeI17zGpXrajA" source="_MLI-QAVbEeeI17zGpXrajA"/>
+            <transitions xmi:id="_WfbRgAVbEeeI17zGpXrajA" priority="1" target="_WRNzMQVXEeeI17zGpXrajA" source="_Mwb5IAVaEeeI17zGpXrajA"/>
+            <transitions xmi:id="_XVR7cAVbEeeI17zGpXrajA" priority="2" target="_MLI-QAVbEeeI17zGpXrajA" source="_Mwb5IAVaEeeI17zGpXrajA"/>
+            <transitions xmi:id="_ZU4bsAVbEeeI17zGpXrajA" priority="2" target="_Mwb5IAVaEeeI17zGpXrajA" source="_MLI-QAVbEeeI17zGpXrajA"/>
+            <states xmi:id="_WRNzMQVXEeeI17zGpXrajA" name="RGB_Disconnected" outgoingTransitions="_--SicAVaEeeI17zGpXrajA" incomingTransitions="_VBc3oAVbEeeI17zGpXrajA _WfbRgAVbEeeI17zGpXrajA" initial="true">
+              <entryEvent xmi:id="_cHSHUAVaEeeI17zGpXrajA">
+                <action xmi:id="_zvtKIAVaEeeI17zGpXrajA" name="BLE radio not connected"/>
+              </entryEvent>
+            </states>
+            <states xmi:id="_Mwb5IAVaEeeI17zGpXrajA" name="RGB_Connected" outgoingTransitions="_WfbRgAVbEeeI17zGpXrajA _XVR7cAVbEeeI17zGpXrajA" incomingTransitions="_--SicAVaEeeI17zGpXrajA _ZU4bsAVbEeeI17zGpXrajA">
+              <entryEvent xmi:id="_449i8AVaEeeI17zGpXrajA">
+                <action xmi:id="_6_dVYAVaEeeI17zGpXrajA" name="BLE radio connected to device"/>
+              </entryEvent>
+            </states>
+            <states xmi:id="_MLI-QAVbEeeI17zGpXrajA" name="RGB_Fault" outgoingTransitions="_VBc3oAVbEeeI17zGpXrajA _ZU4bsAVbEeeI17zGpXrajA" incomingTransitions="_XVR7cAVbEeeI17zGpXrajA">
+              <entryEvent xmi:id="_Pz1jQAVbEeeI17zGpXrajA">
+                <action xmi:id="_TQzZYAVbEeeI17zGpXrajA" name="System Fault Detected"/>
+              </entryEvent>
+            </states>
+          </embeddedStatechart>
+        </embeddedRegions>
+        <embeddedRegions xmi:id="_YN7FkAVZEeeI17zGpXrajA" priority="2">
+          <embeddedStatechart xmi:id="_YN7FkQVZEeeI17zGpXrajA" name="statechart">
+            <transitions xmi:id="_uWLEMAVbEeeI17zGpXrajA" priority="1" target="_d3tGoAVbEeeI17zGpXrajA" source="_YN7FkgVZEeeI17zGpXrajA"/>
+            <transitions xmi:id="_u8zmYAVbEeeI17zGpXrajA" priority="1" target="_YN7FkgVZEeeI17zGpXrajA" source="_d3tGoAVbEeeI17zGpXrajA"/>
+            <states xmi:id="_YN7FkgVZEeeI17zGpXrajA" name="SC_Nominal" outgoingTransitions="_uWLEMAVbEeeI17zGpXrajA" incomingTransitions="_u8zmYAVbEeeI17zGpXrajA" initial="true">
+              <entryEvent xmi:id="_jq5NQAVbEeeI17zGpXrajA">
+                <action xmi:id="_nrk0cAVbEeeI17zGpXrajA" name="Set LED to Stored Brightness Value"/>
+              </entryEvent>
+            </states>
+            <states xmi:id="_d3tGoAVbEeeI17zGpXrajA" name="SC_Fault" outgoingTransitions="_u8zmYAVbEeeI17zGpXrajA" incomingTransitions="_uWLEMAVbEeeI17zGpXrajA">
+              <entryEvent xmi:id="_ouKS0AVbEeeI17zGpXrajA">
+                <action xmi:id="_q0dQ8AVbEeeI17zGpXrajA" name="System Fault Detected"/>
+              </entryEvent>
+            </states>
+          </embeddedStatechart>
+        </embeddedRegions>
+        <doEvent xmi:id="_ESRzUAVVEeeI17zGpXrajA" kind="TRIGGER">
+          <action xmi:id="_DQyc8AVcEeeI17zGpXrajA" name="Check Boot Status"/>
+        </doEvent>
+        <entryEvent xmi:id="_c5eWEAVWEeeI17zGpXrajA" kind="TRIGGER">
+          <action xmi:id="_41uMQAVbEeeI17zGpXrajA" name="Configure Pins, Configure Serial, ReadFlashMemory, RadioSetup, Print Version Information"/>
+        </entryEvent>
+      </states>
+    </modelElements>
+  </categories>
+  <categories xmi:id="_g9dtwwVHEeeI17zGpXrajA" key="org.muml.pim.instance.category" name="instance">
+    <modelElements xsi:type="instance:ComponentInstanceConfiguration" xmi:id="_wx5TAAVLEeeI17zGpXrajA" name="root-cic"/>
+  </categories>
+  <categories xmi:id="_g9dtxAVHEeeI17zGpXrajA" key="org.muml.pim.pattern.category" name="pattern"/>
+  <categories xmi:id="_g9dtxQVHEeeI17zGpXrajA" key="org.muml.pim.protocol.category" name="protocol"/>
+  <categories xmi:id="_g9dtxgVHEeeI17zGpXrajA" key="org.muml.pim.components.category" name="component">
+    <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_uciWcAVREeeI17zGpXrajA" name="Globals"/>
+    <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_wr370AVREeeI17zGpXrajA" name="Main"/>
+    <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_1t7gcAVREeeI17zGpXrajA" name="#setGreenLED">
+      <ports xsi:type="component:ContinuousPort" xmi:id="_3wDJMAVREeeI17zGpXrajA" name="percent">
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+      </ports>
+    </modelElements>
+    <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_7Z4WoAVREeeI17zGpXrajA" name="setRedLED">
+      <ports xsi:type="component:ContinuousPort" xmi:id="_7Z4WoQVREeeI17zGpXrajA" name="percent">
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+      </ports>
+    </modelElements>
+    <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_9bheQAVREeeI17zGpXrajA" name="#setBlueLED">
+      <ports xsi:type="component:ContinuousPort" xmi:id="_9bheQQVREeeI17zGpXrajA" name="percent">
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+      </ports>
+    </modelElements>
+    <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_BwZz0AVSEeeI17zGpXrajA" name="#setRGBColors">
+      <ports xsi:type="component:ContinuousPort" xmi:id="_vM-fcAVSEeeI17zGpXrajA" name="void">
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+      </ports>
+      <embeddedComponentParts xmi:id="_cqsQAAVSEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_cq2BAAVSEeeI17zGpXrajA">
+          <lowerBound xmi:id="_eDICkAVSEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_eEXYsAVSEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_dnw8QAVSEeeI17zGpXrajA" portType="_9bheQQVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+      <embeddedComponentParts xmi:id="_fk6lcAVSEeeI17zGpXrajA" name="C2" componentType="_1t7gcAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_fk6lcQVSEeeI17zGpXrajA">
+          <lowerBound xmi:id="_jpZukAVSEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_jqpEsAVSEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_ikmCoAVSEeeI17zGpXrajA" portType="_3wDJMAVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+      <embeddedComponentParts xmi:id="_kQBpsAVSEeeI17zGpXrajA" name="C3" componentType="_7Z4WoAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_kQBpsQVSEeeI17zGpXrajA">
+          <lowerBound xmi:id="_qtbK8AVSEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_qukacAVSEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_lCHN8AVSEeeI17zGpXrajA" portType="_7Z4WoQVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+    </modelElements>
+    <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_Tj6RsAVSEeeI17zGpXrajA" name="setSCIntensity">
+      <ports xsi:type="component:ContinuousPort" xmi:id="_VyKR8AVSEeeI17zGpXrajA" name="">
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+      </ports>
+    </modelElements>
+    <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_g6pz4AVTEeeI17zGpXrajA" name="#onConnectFlash">
+      <ports xsi:type="component:ContinuousPort" xmi:id="_g6pz4QVTEeeI17zGpXrajA" name="void">
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+      </ports>
+      <embeddedComponentParts xmi:id="_g6pz4gVTEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_g6pz4wVTEeeI17zGpXrajA">
+          <lowerBound xmi:id="_g6pz5AVTEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_g6pz5QVTEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_g6pz5gVTEeeI17zGpXrajA" portType="_9bheQQVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+      <embeddedComponentParts xmi:id="_g6pz5wVTEeeI17zGpXrajA" name="C2" componentType="_1t7gcAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_g6pz6AVTEeeI17zGpXrajA">
+          <lowerBound xmi:id="_g6pz6QVTEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_g6pz6gVTEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_g6pz6wVTEeeI17zGpXrajA" portType="_3wDJMAVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+      <embeddedComponentParts xmi:id="_g6pz7AVTEeeI17zGpXrajA" name="C3" componentType="_7Z4WoAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_g6pz7QVTEeeI17zGpXrajA">
+          <lowerBound xmi:id="_g6pz7gVTEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_g6pz7wVTEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_g6pz8AVTEeeI17zGpXrajA" portType="_7Z4WoQVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+    </modelElements>
+    <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_nRy8IAVTEeeI17zGpXrajA" name="#onDisconnectFlash">
+      <ports xsi:type="component:ContinuousPort" xmi:id="_nRy8IQVTEeeI17zGpXrajA" name="void">
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+      </ports>
+      <embeddedComponentParts xmi:id="_nRy8IgVTEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_nRy8IwVTEeeI17zGpXrajA">
+          <lowerBound xmi:id="_nRy8JAVTEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_nRy8JQVTEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_nRy8JgVTEeeI17zGpXrajA" portType="_9bheQQVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+      <embeddedComponentParts xmi:id="_nRy8JwVTEeeI17zGpXrajA" name="C2" componentType="_1t7gcAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_nRy8KAVTEeeI17zGpXrajA">
+          <lowerBound xmi:id="_nRy8KQVTEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_nRy8KgVTEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_nRy8KwVTEeeI17zGpXrajA" portType="_3wDJMAVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+      <embeddedComponentParts xmi:id="_nRy8LAVTEeeI17zGpXrajA" name="C3" componentType="_7Z4WoAVREeeI17zGpXrajA">
+        <cardinality xmi:id="_nRy8LQVTEeeI17zGpXrajA">
+          <lowerBound xmi:id="_nRy8LgVTEeeI17zGpXrajA"/>
+          <upperBound xmi:id="_nRy8LwVTEeeI17zGpXrajA"/>
+        </cardinality>
+        <portParts xmi:id="_nRy8MAVTEeeI17zGpXrajA" portType="_7Z4WoQVREeeI17zGpXrajA"/>
+      </embeddedComponentParts>
+    </modelElements>
+  </categories>
+  <categories xmi:id="_g9dtxwVHEeeI17zGpXrajA" key="org.muml.pim.messagetype.category" name="msgtype"/>
+  <categories xmi:id="_jWHnMAVHEeeI17zGpXrajA" key="org.muml.storydiagram.category" name="storydiagrams">
+    <modelElements xsi:type="sda:Activity" xmi:id="_jWLRkAVHEeeI17zGpXrajA"/>
+  </categories>
+</modelinstance:RootNode>
