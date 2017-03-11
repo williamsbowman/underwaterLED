@@ -1,0 +1,515 @@
+\begin{theindex}
+
+  \item {A\+D\+C\+\_\+\+R\+E\+S\+O\+L\+U\+T\+I\+ON}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {A\+D\+C\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+R\+EF}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+
+  \indexspace
+
+  \item {B\+L\+U\+E\+\_\+\+L\+E\+D\+\_\+\+P\+IN}
+    \subitem {Pin\+Definitions.\+h}, \hyperpage{28}
+  \item {blue\+L\+E\+D\+Value}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {Boot}
+    \subitem {States.\+h}, \hyperpage{43}
+
+  \indexspace
+
+  \item {check\+Boot\+Complete}
+    \subitem {States.\+cpp}, \hyperpage{38}
+    \subitem {States.\+h}, \hyperpage{43}
+  \item {check\+Debug\+Send\+Time}
+    \subitem {Serial\+Debug.\+cpp}, \hyperpage{34}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{37}
+  \item {check\+Sensors}
+    \subitem {Sensor\+Manager.\+cpp}, \hyperpage{29}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {check\+Serial}
+    \subitem {Serial\+Debug.\+cpp}, \hyperpage{34}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{37}
+  \item {check\+State}
+    \subitem {States.\+cpp}, \hyperpage{38}
+  \item {configure\+Pins}
+    \subitem {States.\+cpp}, \hyperpage{39}
+    \subitem {States.\+h}, \hyperpage{43}
+
+  \indexspace
+
+  \item {D\+E\+B\+U\+G\+\_\+\+LF}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {D\+E\+B\+U\+G\+\_\+\+R\+E\+F\+R\+E\+S\+H\+\_\+\+R\+A\+TE}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {D\+E\+B\+UG}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {data\+Refresh\+Time\+Met}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {debug\+Data\+Refresh\+Rate\+Ms}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {Debug\+Levels}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {driver\+Name}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {driver\+Serial\+Number}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+
+  \indexspace
+
+  \item {elapsed\+Time\+Ms}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+
+  \indexspace
+
+  \item {Fault\+Handler.\+cpp}, \hyperpage{11}
+    \subitem {input\+Voltage\+Error\+Behavior}, \hyperpage{12}
+    \subitem {led\+Over\+Temp\+Behavior}, \hyperpage{12}
+    \subitem {process\+R\+G\+B\+Fault}, \hyperpage{12}
+    \subitem {process\+S\+C\+Fault}, \hyperpage{13}
+    \subitem {react\+To\+Sensors}, \hyperpage{13}
+    \subitem {Temp\+Error\+Timer}, \hyperpage{14}
+    \subitem {Voltage\+Timer}, \hyperpage{14}
+  \item {Fault\+Handler.\+h}, \hyperpage{14}
+    \subitem {L\+E\+D\+\_\+\+O\+V\+E\+R\+T\+E\+M\+P\+\_\+\+F\+I\+R\+S\+T\+\_\+\+R\+E\+D\+U\+C\+T\+I\+O\+N\+\_\+\+P\+E\+R\+C\+E\+N\+T\+A\+GE}, 
+		\hyperpage{15}
+    \subitem {process\+R\+G\+B\+Fault}, \hyperpage{15}
+    \subitem {process\+S\+C\+Fault}, \hyperpage{15}
+  \item {Flash\+Memory\+Data}, \hyperpage{5}
+    \subitem {blue\+L\+E\+D\+Value}, \hyperpage{6}
+    \subitem {data\+Refresh\+Time\+Met}, \hyperpage{6}
+    \subitem {debug\+Data\+Refresh\+Rate\+Ms}, \hyperpage{6}
+    \subitem {driver\+Name}, \hyperpage{6}
+    \subitem {driver\+Serial\+Number}, \hyperpage{6}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+    \subitem {Globals.\+h}, \hyperpage{18}
+    \subitem {green\+L\+E\+D\+Value}, \hyperpage{6}
+    \subitem {mode}, \hyperpage{6}
+    \subitem {mode\+Timing1}, \hyperpage{6}
+    \subitem {mode\+Timing2}, \hyperpage{6}
+    \subitem {mode\+Timing3}, \hyperpage{6}
+    \subitem {part\+Number}, \hyperpage{6}
+    \subitem {red\+L\+E\+D\+Value}, \hyperpage{6}
+    \subitem {rf\+Telemetry\+Enabled}, \hyperpage{6}
+    \subitem {serial\+Debugging\+Level}, \hyperpage{6}
+    \subitem {serial\+Telemetry\+Enabled}, \hyperpage{6}
+    \subitem {temperature\+Protection\+Enabled}, \hyperpage{6}
+    \subitem {test\+Data\+Output\+Enabled}, \hyperpage{6}
+    \subitem {time\+Of\+Use\+Min}, \hyperpage{6}
+    \subitem {voltage\+Protection\+Enabled}, \hyperpage{6}
+
+  \indexspace
+
+  \item {G\+R\+E\+E\+N\+\_\+\+L\+E\+D\+\_\+\+P\+IN}
+    \subitem {Pin\+Definitions.\+h}, \hyperpage{28}
+  \item {gbl\+\_\+\+S\+C\+Status}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+    \subitem {Globals.\+h}, \hyperpage{18}
+  \item {gbl\+\_\+system\+Boot\+Flag}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+    \subitem {Globals.\+h}, \hyperpage{18}
+  \item {gbl\+\_\+system\+State}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+    \subitem {Globals.\+h}, \hyperpage{19}
+  \item {gbl\+\_\+system\+Timerin\+Ms}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+    \subitem {Globals.\+h}, \hyperpage{19}
+  \item {get\+Elapsed\+Time\+Ms}
+    \subitem {Timer\+Class}, \hyperpage{9}
+  \item {get\+Input\+VoltageinmV}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{32}
+  \item {get\+Input\+VoltageinV}
+    \subitem {Sensor\+Manager.\+cpp}, \hyperpage{29}
+  \item {get\+L\+E\+D\+TempinC}
+    \subitem {Sensor\+Manager.\+cpp}, \hyperpage{30}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{32}
+  \item {get\+R\+F\+Duino\+TempinC}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{33}
+  \item {Globals.\+cpp}, \hyperpage{16}
+    \subitem {elapsed\+Time\+Ms}, \hyperpage{17}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{17}
+    \subitem {gbl\+\_\+\+S\+C\+Status}, \hyperpage{17}
+    \subitem {gbl\+\_\+system\+Boot\+Flag}, \hyperpage{17}
+    \subitem {gbl\+\_\+system\+State}, \hyperpage{17}
+    \subitem {gbl\+\_\+system\+Timerin\+Ms}, \hyperpage{17}
+    \subitem {load\+Flash\+Memory\+Values}, \hyperpage{16}
+    \subitem {start\+Time\+Ms}, \hyperpage{17}
+    \subitem {stop\+Time\+Ms}, \hyperpage{17}
+  \item {Globals.\+h}, \hyperpage{17}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{18}
+    \subitem {gbl\+\_\+\+S\+C\+Status}, \hyperpage{18}
+    \subitem {gbl\+\_\+system\+Boot\+Flag}, \hyperpage{18}
+    \subitem {gbl\+\_\+system\+State}, \hyperpage{19}
+    \subitem {gbl\+\_\+system\+Timerin\+Ms}, \hyperpage{19}
+    \subitem {load\+Flash\+Memory\+Values}, \hyperpage{18}
+    \subitem {write\+All\+Settings\+To\+Flash}, \hyperpage{18}
+    \subitem {write\+New\+Timeof\+Use\+To\+Flash}, \hyperpage{18}
+  \item {green\+L\+E\+D\+Value}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+
+  \indexspace
+
+  \item {Hardware\+Configuration.\+h}, \hyperpage{19}
+    \subitem {D\+E\+B\+U\+G\+\_\+\+R\+E\+F\+R\+E\+S\+H\+\_\+\+R\+A\+TE}, 
+		\hyperpage{20}
+    \subitem {R\+F\+\_\+\+T\+E\+L\+E\+M\+E\+T\+R\+Y\+\_\+\+E\+N\+A\+B\+L\+ED}, 
+		\hyperpage{20}
+    \subitem {R\+G\+B\+\_\+\+D\+R\+I\+V\+ER}, \hyperpage{20}
+    \subitem {row1}, \hyperpage{20}
+    \subitem {row2}, \hyperpage{20}
+    \subitem {row3}, \hyperpage{20}
+    \subitem {row4}, \hyperpage{20}
+    \subitem {row5}, \hyperpage{20}
+    \subitem {row6}, \hyperpage{20}
+    \subitem {S\+E\+R\+I\+A\+L\+\_\+\+T\+E\+L\+E\+M\+E\+T\+R\+Y\+\_\+\+E\+N\+A\+B\+L\+ED}, 
+		\hyperpage{20}
+    \subitem {S\+O\+F\+T\+W\+A\+R\+E\+\_\+\+V\+E\+R\+S\+I\+ON}, 
+		\hyperpage{20}
+  \item {High}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+
+  \indexspace
+
+  \item {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+C\+R\+I\+T\+I\+C\+A\+L\+\_\+V}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+P\+IN}
+    \subitem {Pin\+Definitions.\+h}, \hyperpage{28}
+  \item {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+S\+A\+G\+\_\+\+T\+I\+M\+E\+\_\+\+MS}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+W\+A\+R\+N\+I\+N\+G\+\_\+V}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {initialize\+System}
+    \subitem {States.\+cpp}, \hyperpage{39}
+    \subitem {States.\+h}, \hyperpage{44}
+  \item {input\+Hit\+Critical\+Voltage}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+  \item {input\+Hit\+Warning\+Voltage}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+  \item {input\+Voltage\+Error\+Behavior}
+    \subitem {Fault\+Handler.\+cpp}, \hyperpage{12}
+  \item {input\+VoltageinV}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+
+  \indexspace
+
+  \item {L\+E\+D\+\_\+\+B\+O\+A\+R\+D\+\_\+\+T\+E\+M\+P\+\_\+\+P\+IN}
+    \subitem {Pin\+Definitions.\+h}, \hyperpage{28}
+  \item {L\+E\+D\+\_\+\+C\+R\+I\+T\+I\+C\+A\+L\+\_\+\+T\+E\+M\+P\+\_\+C}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {L\+E\+D\+\_\+\+O\+V\+E\+R\+T\+E\+M\+P\+\_\+\+F\+I\+R\+S\+T\+\_\+\+R\+E\+D\+U\+C\+T\+I\+O\+N\+\_\+\+P\+E\+R\+C\+E\+N\+T\+A\+GE}
+    \subitem {Fault\+Handler.\+h}, \hyperpage{15}
+  \item {L\+E\+D\+\_\+\+W\+A\+R\+N\+I\+N\+G\+\_\+\+T\+E\+M\+P\+\_\+C}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {L\+E\+D\+Control\+Manager.\+cpp}, \hyperpage{20}
+    \subitem {set\+Red\+P\+WM}, \hyperpage{21}
+    \subitem {set\+S\+C\+Intensity}, \hyperpage{22}
+  \item {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{23}
+    \subitem {on\+Connect\+Flash}, \hyperpage{23}
+    \subitem {on\+Disconnect\+Flash}, \hyperpage{23}
+    \subitem {set\+Blue\+P\+WM}, \hyperpage{24}
+    \subitem {set\+Green\+P\+WM}, \hyperpage{24}
+    \subitem {set\+R\+G\+B\+Colors}, \hyperpage{25}
+    \subitem {set\+Red\+P\+WM}, \hyperpage{24}
+    \subitem {set\+S\+C\+Intensity}, \hyperpage{25}
+  \item {L\+E\+D\+Hit\+Critical\+Temp}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+  \item {L\+E\+D\+Hit\+Warning\+Temp}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+  \item {L\+E\+D\+Intensity}
+    \subitem {S\+C\+Status}, \hyperpage{7}
+  \item {L\+E\+D\+TempinC}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+  \item {led\+Over\+Temp\+Behavior}
+    \subitem {Fault\+Handler.\+cpp}, \hyperpage{12}
+  \item {load\+Flash\+Memory\+Values}
+    \subitem {Globals.\+cpp}, \hyperpage{16}
+    \subitem {Globals.\+h}, \hyperpage{18}
+  \item {Low}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+
+  \indexspace
+
+  \item {M\+A\+X\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+F\+L\+A\+S\+H\+\_\+\+W\+R\+I\+T\+ES}
+    \subitem {Memory.\+h}, \hyperpage{27}
+  \item {Medium}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {Memory.\+c}, \hyperpage{26}
+  \item {Memory.\+h}, \hyperpage{26}
+    \subitem {M\+A\+X\+\_\+\+N\+U\+M\+B\+E\+R\+\_\+\+O\+F\+\_\+\+F\+L\+A\+S\+H\+\_\+\+W\+R\+I\+T\+ES}, 
+		\hyperpage{27}
+    \subitem {T\+I\+M\+E\+\_\+\+O\+F\+\_\+\+U\+S\+E\+\_\+\+P\+E\+R\+I\+O\+D\+\_\+\+I\+N\+\_\+\+MS}, 
+		\hyperpage{27}
+  \item {mode}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {mode\+Timing1}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {mode\+Timing2}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {mode\+Timing3}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+
+  \indexspace
+
+  \item {new\+State\+Print\+Flag}
+    \subitem {States.\+cpp}, \hyperpage{42}
+
+  \indexspace
+
+  \item {Off}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {on\+Connect\+Flash}
+    \subitem {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{23}
+  \item {on\+Disconnect\+Flash}
+    \subitem {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{23}
+  \item {on\+Radio\+Connect}
+    \subitem {States.\+h}, \hyperpage{44}
+  \item {on\+Radio\+Disconnect}
+    \subitem {States.\+h}, \hyperpage{44}
+
+  \indexspace
+
+  \item {part\+Number}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {Pin\+Definitions.\+h}, \hyperpage{27}
+    \subitem {B\+L\+U\+E\+\_\+\+L\+E\+D\+\_\+\+P\+IN}, \hyperpage{28}
+    \subitem {G\+R\+E\+E\+N\+\_\+\+L\+E\+D\+\_\+\+P\+IN}, 
+		\hyperpage{28}
+    \subitem {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+P\+IN}, 
+		\hyperpage{28}
+    \subitem {L\+E\+D\+\_\+\+B\+O\+A\+R\+D\+\_\+\+T\+E\+M\+P\+\_\+\+P\+IN}, 
+		\hyperpage{28}
+    \subitem {R\+E\+D\+\_\+\+L\+E\+D\+\_\+\+P\+IN}, \hyperpage{28}
+  \item {print\+Start\+Up\+Data}
+    \subitem {States.\+cpp}, \hyperpage{39}
+    \subitem {States.\+h}, \hyperpage{44}
+  \item {process\+R\+G\+B\+Fault}
+    \subitem {Fault\+Handler.\+cpp}, \hyperpage{12}
+    \subitem {Fault\+Handler.\+h}, \hyperpage{15}
+  \item {process\+S\+C\+Fault}
+    \subitem {Fault\+Handler.\+cpp}, \hyperpage{13}
+    \subitem {Fault\+Handler.\+h}, \hyperpage{15}
+
+  \indexspace
+
+  \item {R\+E\+D\+\_\+\+L\+E\+D\+\_\+\+P\+IN}
+    \subitem {Pin\+Definitions.\+h}, \hyperpage{28}
+  \item {R\+F\+\_\+\+T\+E\+L\+E\+M\+E\+T\+R\+Y\+\_\+\+E\+N\+A\+B\+L\+ED}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {R\+F\+D\+U\+I\+N\+O\+\_\+\+C\+R\+I\+T\+I\+C\+A\+L\+\_\+\+T\+E\+M\+P\+\_\+C}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{31}
+  \item {r\+F\+Duino\+Over\+Temp}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+  \item {r\+F\+Duino\+TempinC}
+    \subitem {sensor\+Feedback}, \hyperpage{8}
+  \item {R\+G\+B\+\_\+\+Connected}
+    \subitem {States.\+h}, \hyperpage{43}
+  \item {R\+G\+B\+\_\+\+D\+R\+I\+V\+ER}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {R\+G\+B\+\_\+\+Disconnected}
+    \subitem {States.\+h}, \hyperpage{43}
+  \item {R\+G\+B\+\_\+\+Fault}
+    \subitem {States.\+h}, \hyperpage{43}
+  \item {react\+To\+Sensors}
+    \subitem {Fault\+Handler.\+cpp}, \hyperpage{13}
+  \item {red\+L\+E\+D\+Value}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {reset\+Timer}
+    \subitem {Timer\+Class}, \hyperpage{9}
+  \item {rf\+Telemetry\+Enabled}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {row1}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {row2}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {row3}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {row4}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {row5}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {row6}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+
+  \indexspace
+
+  \item {S\+C\+\_\+\+Fault}
+    \subitem {States.\+h}, \hyperpage{43}
+  \item {S\+C\+\_\+\+Nominal}
+    \subitem {States.\+h}, \hyperpage{43}
+  \item {S\+C\+Fault\+State}
+    \subitem {States.\+cpp}, \hyperpage{40}
+  \item {S\+C\+Nominal\+State}
+    \subitem {States.\+cpp}, \hyperpage{40}
+  \item {S\+C\+Status}, \hyperpage{7}
+    \subitem {L\+E\+D\+Intensity}, \hyperpage{7}
+    \subitem {S\+Cdriver\+Fault\+Flag}, \hyperpage{7}
+  \item {S\+Cdriver\+Fault\+Flag}
+    \subitem {S\+C\+Status}, \hyperpage{7}
+  \item {S\+E\+R\+I\+A\+L\+\_\+\+T\+E\+L\+E\+M\+E\+T\+R\+Y\+\_\+\+E\+N\+A\+B\+L\+ED}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {S\+O\+F\+T\+W\+A\+R\+E\+\_\+\+V\+E\+R\+S\+I\+ON}
+    \subitem {Hardware\+Configuration.\+h}, \hyperpage{20}
+  \item {Sensor}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {sensor\+Feedback}, \hyperpage{7}
+    \subitem {input\+Hit\+Critical\+Voltage}, \hyperpage{8}
+    \subitem {input\+Hit\+Warning\+Voltage}, \hyperpage{8}
+    \subitem {input\+VoltageinV}, \hyperpage{8}
+    \subitem {L\+E\+D\+Hit\+Critical\+Temp}, \hyperpage{8}
+    \subitem {L\+E\+D\+Hit\+Warning\+Temp}, \hyperpage{8}
+    \subitem {L\+E\+D\+TempinC}, \hyperpage{8}
+    \subitem {r\+F\+Duino\+Over\+Temp}, \hyperpage{8}
+    \subitem {r\+F\+Duino\+TempinC}, \hyperpage{8}
+    \subitem {Sensor\+Manager.\+cpp}, \hyperpage{30}
+    \subitem {Sensor\+Manager.\+h}, \hyperpage{33}
+  \item {Sensor\+Manager.\+cpp}, \hyperpage{28}
+    \subitem {check\+Sensors}, \hyperpage{29}
+    \subitem {get\+Input\+VoltageinV}, \hyperpage{29}
+    \subitem {get\+L\+E\+D\+TempinC}, \hyperpage{30}
+    \subitem {sensor\+Feedback}, \hyperpage{30}
+    \subitem {Voltage\+Time}, \hyperpage{30}
+  \item {Sensor\+Manager.\+h}, \hyperpage{30}
+    \subitem {A\+D\+C\+\_\+\+R\+E\+S\+O\+L\+U\+T\+I\+ON}, 
+		\hyperpage{31}
+    \subitem {A\+D\+C\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+R\+EF}, 
+		\hyperpage{31}
+    \subitem {check\+Sensors}, \hyperpage{31}
+    \subitem {get\+Input\+VoltageinmV}, \hyperpage{32}
+    \subitem {get\+L\+E\+D\+TempinC}, \hyperpage{32}
+    \subitem {get\+R\+F\+Duino\+TempinC}, \hyperpage{33}
+    \subitem {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+C\+R\+I\+T\+I\+C\+A\+L\+\_\+V}, 
+		\hyperpage{31}
+    \subitem {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+S\+A\+G\+\_\+\+T\+I\+M\+E\+\_\+\+MS}, 
+		\hyperpage{31}
+    \subitem {I\+N\+P\+U\+T\+\_\+\+V\+O\+L\+T\+A\+G\+E\+\_\+\+W\+A\+R\+N\+I\+N\+G\+\_\+V}, 
+		\hyperpage{31}
+    \subitem {L\+E\+D\+\_\+\+C\+R\+I\+T\+I\+C\+A\+L\+\_\+\+T\+E\+M\+P\+\_\+C}, 
+		\hyperpage{31}
+    \subitem {L\+E\+D\+\_\+\+W\+A\+R\+N\+I\+N\+G\+\_\+\+T\+E\+M\+P\+\_\+C}, 
+		\hyperpage{31}
+    \subitem {R\+F\+D\+U\+I\+N\+O\+\_\+\+C\+R\+I\+T\+I\+C\+A\+L\+\_\+\+T\+E\+M\+P\+\_\+C}, 
+		\hyperpage{31}
+    \subitem {sensor\+Feedback}, \hyperpage{33}
+  \item {Serial\+Debug.\+cpp}, \hyperpage{34}
+    \subitem {check\+Debug\+Send\+Time}, \hyperpage{34}
+    \subitem {check\+Serial}, \hyperpage{34}
+    \subitem {Serial\+Debug\+Level}, \hyperpage{34}
+  \item {Serial\+Debug.\+h}, \hyperpage{35}
+    \subitem {check\+Debug\+Send\+Time}, \hyperpage{37}
+    \subitem {check\+Serial}, \hyperpage{37}
+    \subitem {D\+E\+B\+U\+G\+\_\+\+LF}, \hyperpage{36}
+    \subitem {D\+E\+B\+UG}, \hyperpage{36}
+    \subitem {Debug\+Levels}, \hyperpage{36}
+    \subitem {High}, \hyperpage{36}
+    \subitem {Low}, \hyperpage{36}
+    \subitem {Medium}, \hyperpage{36}
+    \subitem {Off}, \hyperpage{36}
+    \subitem {Sensor}, \hyperpage{36}
+    \subitem {Serial\+Debug\+Level}, \hyperpage{37}
+    \subitem {T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF}, \hyperpage{36}
+    \subitem {T\+E\+R\+M\+I\+N\+AL}, \hyperpage{36}
+    \subitem {T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG}, \hyperpage{36}
+  \item {Serial\+Debug\+Level}
+    \subitem {Serial\+Debug.\+cpp}, \hyperpage{34}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{37}
+  \item {serial\+Debugging\+Level}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {serial\+Telemetry\+Enabled}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {set\+Blue\+P\+WM}
+    \subitem {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{24}
+  \item {set\+Green\+P\+WM}
+    \subitem {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{24}
+  \item {set\+R\+G\+B\+Colors}
+    \subitem {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{25}
+  \item {set\+Red\+P\+WM}
+    \subitem {L\+E\+D\+Control\+Manager.\+cpp}, \hyperpage{21}
+    \subitem {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{24}
+  \item {set\+S\+C\+Intensity}
+    \subitem {L\+E\+D\+Control\+Manager.\+cpp}, \hyperpage{22}
+    \subitem {L\+E\+D\+Control\+Manager.\+h}, \hyperpage{25}
+  \item {set\+State}
+    \subitem {States.\+cpp}, \hyperpage{41}
+    \subitem {States.\+h}, \hyperpage{44}
+  \item {start\+Time\+Ms}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+  \item {start\+Timer}
+    \subitem {Timer\+Class}, \hyperpage{9}
+  \item {Startup\+Timer}
+    \subitem {States.\+cpp}, \hyperpage{42}
+  \item {States}
+    \subitem {States.\+h}, \hyperpage{43}
+  \item {States.\+cpp}, \hyperpage{37}
+    \subitem {check\+Boot\+Complete}, \hyperpage{38}
+    \subitem {check\+State}, \hyperpage{38}
+    \subitem {configure\+Pins}, \hyperpage{39}
+    \subitem {initialize\+System}, \hyperpage{39}
+    \subitem {new\+State\+Print\+Flag}, \hyperpage{42}
+    \subitem {print\+Start\+Up\+Data}, \hyperpage{39}
+    \subitem {S\+C\+Fault\+State}, \hyperpage{40}
+    \subitem {S\+C\+Nominal\+State}, \hyperpage{40}
+    \subitem {set\+State}, \hyperpage{41}
+    \subitem {Startup\+Timer}, \hyperpage{42}
+  \item {States.\+h}, \hyperpage{42}
+    \subitem {Boot}, \hyperpage{43}
+    \subitem {check\+Boot\+Complete}, \hyperpage{43}
+    \subitem {configure\+Pins}, \hyperpage{43}
+    \subitem {initialize\+System}, \hyperpage{44}
+    \subitem {on\+Radio\+Connect}, \hyperpage{44}
+    \subitem {on\+Radio\+Disconnect}, \hyperpage{44}
+    \subitem {print\+Start\+Up\+Data}, \hyperpage{44}
+    \subitem {R\+G\+B\+\_\+\+Connected}, \hyperpage{43}
+    \subitem {R\+G\+B\+\_\+\+Disconnected}, \hyperpage{43}
+    \subitem {R\+G\+B\+\_\+\+Fault}, \hyperpage{43}
+    \subitem {S\+C\+\_\+\+Fault}, \hyperpage{43}
+    \subitem {S\+C\+\_\+\+Nominal}, \hyperpage{43}
+    \subitem {set\+State}, \hyperpage{44}
+    \subitem {States}, \hyperpage{43}
+  \item {stop\+Time\+Ms}
+    \subitem {Globals.\+cpp}, \hyperpage{17}
+  \item {stop\+Timer}
+    \subitem {Timer\+Class}, \hyperpage{9}
+
+  \indexspace
+
+  \item {T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {T\+E\+R\+M\+I\+N\+AL}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {T\+I\+M\+E\+\_\+\+O\+F\+\_\+\+U\+S\+E\+\_\+\+P\+E\+R\+I\+O\+D\+\_\+\+I\+N\+\_\+\+MS}
+    \subitem {Memory.\+h}, \hyperpage{27}
+  \item {T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG}
+    \subitem {Serial\+Debug.\+h}, \hyperpage{36}
+  \item {Temp\+Error\+Timer}
+    \subitem {Fault\+Handler.\+cpp}, \hyperpage{14}
+  \item {temperature\+Protection\+Enabled}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {test\+Data\+Output\+Enabled}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {time\+Of\+Use\+Min}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {time\+Out\+Ms}
+    \subitem {Timer\+Class}, \hyperpage{10}
+  \item {Timer\+Class}, \hyperpage{8}
+    \subitem {get\+Elapsed\+Time\+Ms}, \hyperpage{9}
+    \subitem {reset\+Timer}, \hyperpage{9}
+    \subitem {start\+Timer}, \hyperpage{9}
+    \subitem {stop\+Timer}, \hyperpage{9}
+    \subitem {time\+Out\+Ms}, \hyperpage{10}
+    \subitem {Timer\+Class}, \hyperpage{9}
+
+  \indexspace
+
+  \item {voltage\+Protection\+Enabled}
+    \subitem {Flash\+Memory\+Data}, \hyperpage{6}
+  \item {Voltage\+Time}
+    \subitem {Sensor\+Manager.\+cpp}, \hyperpage{30}
+  \item {Voltage\+Timer}
+    \subitem {Fault\+Handler.\+cpp}, \hyperpage{14}
+
+  \indexspace
+
+  \item {write\+All\+Settings\+To\+Flash}
+    \subitem {Globals.\+h}, \hyperpage{18}
+  \item {write\+New\+Timeof\+Use\+To\+Flash}
+    \subitem {Globals.\+h}, \hyperpage{18}
+
+\end{theindex}

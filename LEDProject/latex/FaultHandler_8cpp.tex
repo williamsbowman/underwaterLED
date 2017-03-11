@@ -1,0 +1,152 @@
+\hypertarget{FaultHandler_8cpp}{}\section{Fault\+Handler.\+cpp File Reference}
+\label{FaultHandler_8cpp}\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+{\ttfamily \#include \char`\"{}Fault\+Handler.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Globals.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Sensor\+Manager.\+h\char`\"{}}\\*
+Include dependency graph for Fault\+Handler.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{FaultHandler_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{FaultHandler_8cpp_ae16fac85dbd867f57af7f50349a69cbe}{process\+S\+C\+Fault} (void)
+\item 
+void \hyperlink{FaultHandler_8cpp_aa59f3ab77e7e3c866bdc513d9925f93d}{process\+R\+G\+B\+Fault} (void)
+\item 
+void \hyperlink{FaultHandler_8cpp_ac8de8a862ca93b2dd5584982cce2d5a2}{led\+Over\+Temp\+Behavior} (void)
+\item 
+void \hyperlink{FaultHandler_8cpp_af7ed7ed53fb02033684a7bd77ce6864d}{input\+Voltage\+Error\+Behavior} (void)
+\item 
+void \hyperlink{FaultHandler_8cpp_a4e21fbf1ef6493f7765a365fa0ff62dd}{react\+To\+Sensors} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+class \hyperlink{classTimerClass}{Timer\+Class} \hyperlink{FaultHandler_8cpp_ac195cc1850a1f4575b7453b028c6fe01}{Voltage\+Timer}
+\item 
+class \hyperlink{classTimerClass}{Timer\+Class} \hyperlink{FaultHandler_8cpp_aed9c64591d033ba6765ec55e91c8ccf5}{Temp\+Error\+Timer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}!input\+Voltage\+Error\+Behavior@{input\+Voltage\+Error\+Behavior}}
+\index{input\+Voltage\+Error\+Behavior@{input\+Voltage\+Error\+Behavior}!Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+\subsubsection[{\texorpdfstring{input\+Voltage\+Error\+Behavior(void)}{inputVoltageErrorBehavior(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void input\+Voltage\+Error\+Behavior (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{FaultHandler_8cpp_af7ed7ed53fb02033684a7bd77ce6864d}{}\label{FaultHandler_8cpp_af7ed7ed53fb02033684a7bd77ce6864d}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=332pt]{FaultHandler_8cpp_af7ed7ed53fb02033684a7bd77ce6864d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}!led\+Over\+Temp\+Behavior@{led\+Over\+Temp\+Behavior}}
+\index{led\+Over\+Temp\+Behavior@{led\+Over\+Temp\+Behavior}!Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+\subsubsection[{\texorpdfstring{led\+Over\+Temp\+Behavior(void)}{ledOverTempBehavior(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void led\+Over\+Temp\+Behavior (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{FaultHandler_8cpp_ac8de8a862ca93b2dd5584982cce2d5a2}{}\label{FaultHandler_8cpp_ac8de8a862ca93b2dd5584982cce2d5a2}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{FaultHandler_8cpp_ac8de8a862ca93b2dd5584982cce2d5a2_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{FaultHandler_8cpp_ac8de8a862ca93b2dd5584982cce2d5a2_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}!process\+R\+G\+B\+Fault@{process\+R\+G\+B\+Fault}}
+\index{process\+R\+G\+B\+Fault@{process\+R\+G\+B\+Fault}!Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+\subsubsection[{\texorpdfstring{process\+R\+G\+B\+Fault(void)}{processRGBFault(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void process\+R\+G\+B\+Fault (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{FaultHandler_8cpp_aa59f3ab77e7e3c866bdc513d9925f93d}{}\label{FaultHandler_8cpp_aa59f3ab77e7e3c866bdc513d9925f93d}
+\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}!process\+S\+C\+Fault@{process\+S\+C\+Fault}}
+\index{process\+S\+C\+Fault@{process\+S\+C\+Fault}!Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+\subsubsection[{\texorpdfstring{process\+S\+C\+Fault(void)}{processSCFault(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void process\+S\+C\+Fault (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{FaultHandler_8cpp_ae16fac85dbd867f57af7f50349a69cbe}{}\label{FaultHandler_8cpp_ae16fac85dbd867f57af7f50349a69cbe}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{FaultHandler_8cpp_ae16fac85dbd867f57af7f50349a69cbe_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{FaultHandler_8cpp_ae16fac85dbd867f57af7f50349a69cbe_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}!react\+To\+Sensors@{react\+To\+Sensors}}
+\index{react\+To\+Sensors@{react\+To\+Sensors}!Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+\subsubsection[{\texorpdfstring{react\+To\+Sensors(void)}{reactToSensors(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void react\+To\+Sensors (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{FaultHandler_8cpp_a4e21fbf1ef6493f7765a365fa0ff62dd}{}\label{FaultHandler_8cpp_a4e21fbf1ef6493f7765a365fa0ff62dd}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{FaultHandler_8cpp_a4e21fbf1ef6493f7765a365fa0ff62dd_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Variable Documentation}
+\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}!Temp\+Error\+Timer@{Temp\+Error\+Timer}}
+\index{Temp\+Error\+Timer@{Temp\+Error\+Timer}!Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+\subsubsection[{\texorpdfstring{Temp\+Error\+Timer}{TempErrorTimer}}]{\setlength{\rightskip}{0pt plus 5cm}class {\bf Timer\+Class} Temp\+Error\+Timer}\hypertarget{FaultHandler_8cpp_aed9c64591d033ba6765ec55e91c8ccf5}{}\label{FaultHandler_8cpp_aed9c64591d033ba6765ec55e91c8ccf5}
+\index{Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}!Voltage\+Timer@{Voltage\+Timer}}
+\index{Voltage\+Timer@{Voltage\+Timer}!Fault\+Handler.\+cpp@{Fault\+Handler.\+cpp}}
+\subsubsection[{\texorpdfstring{Voltage\+Timer}{VoltageTimer}}]{\setlength{\rightskip}{0pt plus 5cm}class {\bf Timer\+Class} Voltage\+Timer}\hypertarget{FaultHandler_8cpp_ac195cc1850a1f4575b7453b028c6fe01}{}\label{FaultHandler_8cpp_ac195cc1850a1f4575b7453b028c6fe01}

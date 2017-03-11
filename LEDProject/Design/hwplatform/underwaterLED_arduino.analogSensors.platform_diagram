@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwplatform="http://www.muml.org/pm/hardware/hwplatform/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://www.muml.org/pm/hardware/hwplatform/1.0.0 http://www.muml.org/pm/hardware/1.0.0#//hwplatform" xmi:id="_-DduUAYdEee3I5dLa7f-gA" type="Platform" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_-hEQUAYdEee3I5dLa7f-gA" type="2009" fontName="Ubuntu" fontHeight="11" lineColor="0">
+    <children xmi:type="notation:DecorationNode" xmi:id="_-hGFgAYdEee3I5dLa7f-gA" type="5069"/>
+    <children xmi:type="notation:DecorationNode" xmi:id="_-hGFgQYdEee3I5dLa7f-gA" type="7003"/>
+    <element xmi:type="hwplatform:HWPlatform" href="../underwaterLED_arduino.muml#_-C2DQAYdEee3I5dLa7f-gA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_-hEQUQYdEee3I5dLa7f-gA" x="72" y="24" width="504" height="408"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_-DduUQYdEee3I5dLa7f-gA"/>
+  <element xmi:type="hwplatform:HWPlatform" href="../underwaterLED_arduino.muml#_-C2DQAYdEee3I5dLa7f-gA"/>
+</notation:Diagram>

@@ -1,0 +1,8 @@
+<map id="getLEDTempinC" name="getLEDTempinC">
+<area shape="rect" id="node2" href="$SensorManager_8h.html#ab791afb3dfb01137d61ffcc1a312ade5" title="checkSensors" alt="" coords="172,56,277,83"/>
+<area shape="rect" id="node3" href="$FaultHandler_8h.html#ae16fac85dbd867f57af7f50349a69cbe" title="processSCFault" alt="" coords="325,5,441,32"/>
+<area shape="rect" id="node6" href="$States_8cpp.html#a014eac3f1950f3311061d95e6240e35e" title="SCNominalState" alt="" coords="489,56,609,83"/>
+<area shape="rect" id="node7" href="$States_8cpp.html#a94a0a3dea0a4d6e139048a509e9af485" title="checkState" alt="" coords="339,107,427,133"/>
+<area shape="rect" id="node4" href="$States_8cpp.html#a97ec32d4f361a6ccb14d50c278bd8918" title="SCFaultState" alt="" coords="499,5,600,32"/>
+<area shape="rect" id="node5" href="$States_8h.html#a4ff66e43394ec663d13535ac7f85b9d3" title="setState" alt="" coords="657,56,728,83"/>
+</map>

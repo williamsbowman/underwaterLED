@@ -1,0 +1,6 @@
+<map id="setRedPWM" name="setRedPWM">
+<area shape="rect" id="node2" href="$LEDControlManager_8h.html#a1fb733347d7b1ebbae42b0078ede5453" title="setSCIntensity" alt="" coords="153,5,263,32"/>
+<area shape="rect" id="node5" href="$States_8h.html#a19ebe9f470610e6867c7f4724aa5da9b" title="initializeSystem" alt="" coords="151,56,265,83"/>
+<area shape="rect" id="node3" href="$States_8cpp.html#a014eac3f1950f3311061d95e6240e35e" title="SCNominalState" alt="" coords="313,5,433,32"/>
+<area shape="rect" id="node4" href="$States_8h.html#a4ff66e43394ec663d13535ac7f85b9d3" title="setState" alt="" coords="481,5,552,32"/>
+</map>

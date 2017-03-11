@@ -12,15 +12,17 @@ enum States{
 };
 
 
-//Interrupts
+//Interrupt Functions
 void onRadioConnect(void);
 void onRadioDisconnect(void);
 ////////////////////
 
+//Startup Functions
 void configurePins(void);
 void initializeSystem(void);
 void printStartUpData(void);
 void checkBootComplete(void);
+//////
 
 //States checkState(void);
 void setState(void);

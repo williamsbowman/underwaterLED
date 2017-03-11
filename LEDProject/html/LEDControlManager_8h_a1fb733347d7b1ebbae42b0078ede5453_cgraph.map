@@ -1,0 +1,8 @@
+<map id="setSCIntensity" name="setSCIntensity">
+<area shape="rect" id="node2" href="$LEDControlManager_8cpp.html#a44568cbb326ce94b800b1407bd74c3a3" title="setRedPWM" alt="" coords="163,107,260,133"/>
+<area shape="rect" id="node3" href="$LEDControlManager_8h.html#a5f7040b85d3431166dad2842730f077c" title="setGreenPWM" alt="" coords="321,5,429,32"/>
+<area shape="rect" id="node4" href="$LEDControlManager_8h.html#a91457a286ce7ad9931a802f91dd1542c" title="setBluePWM" alt="" coords="326,56,425,83"/>
+<area shape="rect" id="node5" href="$LEDControlManager_8h.html#a63e99d1d357e27cdba2122126293ac7a" title="setRGBColors" alt="" coords="322,107,429,133"/>
+<area shape="rect" id="node6" href="$LEDControlManager_8h.html#ad3ec9b8ca1fb8ab67b960876b5761b42" title="onConnectFlash" alt="" coords="317,157,434,184"/>
+<area shape="rect" id="node7" href="$LEDControlManager_8h.html#a9e6967c01a7e2bfae8a3281ef3eb02c4" title="onDisconnectFlash" alt="" coords="308,208,443,235"/>
+</map>

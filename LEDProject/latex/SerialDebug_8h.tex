@@ -1,0 +1,128 @@
+\hypertarget{SerialDebug_8h}{}\section{Serial\+Debug.\+h File Reference}
+\label{SerialDebug_8h}\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+{\ttfamily \#include \char`\"{}Hardware\+Configuration.\+h\char`\"{}}\\*
+Include dependency graph for Serial\+Debug.\+h\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=295pt]{SerialDebug_8h__incl}
+\end{center}
+\end{figure}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{SerialDebug_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Macros}
+\begin{DoxyCompactItemize}
+\item 
+\#define \hyperlink{SerialDebug_8h_a04ed22e812ec03a8942c40bd6df5ff3b}{T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF}~Serial.\+println
+\item 
+\#define \hyperlink{SerialDebug_8h_a5250b667cb28dd60b71e6e04e23eac37}{T\+E\+R\+M\+I\+N\+AL}~Serial.\+print
+\item 
+\#define \hyperlink{SerialDebug_8h_ac28b2f0cc0d8aabe8b3148d4a5cccc6d}{D\+E\+B\+U\+G\+\_\+\+LF}(level,  message)~if(Serial\+Debug\+Level!=\hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4ad8a892b94d3a94ea861543c085ae782b}{Off} \&\& level $<$= \hyperlink{SerialDebug_8h_a81f9a52045ef198ec20038a6b02aba35}{Serial\+Debug\+Level}) Serial.\+println(message)
+\item 
+\#define \hyperlink{SerialDebug_8h_a94c021eedec413719a519e8652592d41}{D\+E\+B\+UG}(level,  message)~if(Serial\+Debug\+Level!=\hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4ad8a892b94d3a94ea861543c085ae782b}{Off} \&\& level $<$= \hyperlink{SerialDebug_8h_a81f9a52045ef198ec20038a6b02aba35}{Serial\+Debug\+Level}) Serial.\+print(message)
+\item 
+\#define \hyperlink{SerialDebug_8h_a0ef4c095f19f348a7e65acabf9848f72}{T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG}~if(\hyperlink{structFlashMemoryData_aa5ccce295f4c2cf838962fbfca9ee9a9}{Flash\+Memory\+Data.\+data\+Refresh\+Time\+Met})
+\end{DoxyCompactItemize}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4}{Debug\+Levels} \{ \\*
+\hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4ad8a892b94d3a94ea861543c085ae782b}{Off}, 
+\hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4afd04aa7a2a2337eff410dbde4b4598ce}{Sensor}, 
+\hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a7a352a3dd2accc1dd65a4538c3754ee8}{Low}, 
+\hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a8cfb9311a439a51b14159ed0970f398b}{Medium}, 
+\\*
+\hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a24c57acd029e3f96fede49402ea01e6f}{High}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{SerialDebug_8h_a31ea1e399090f7bf6edabad2905b4004}{check\+Serial} (void)
+\item 
+void \hyperlink{SerialDebug_8h_af2b53c59b5d16b731bf52803f697e536}{check\+Debug\+Send\+Time} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4}{Debug\+Levels} \hyperlink{SerialDebug_8h_a81f9a52045ef198ec20038a6b02aba35}{Serial\+Debug\+Level}
+\end{DoxyCompactItemize}
+
+
+\subsection{Macro Definition Documentation}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!D\+E\+B\+UG@{D\+E\+B\+UG}}
+\index{D\+E\+B\+UG@{D\+E\+B\+UG}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{D\+E\+B\+UG}{DEBUG}}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\+E\+B\+UG(
+\begin{DoxyParamCaption}
+\item[{}]{level, }
+\item[{}]{message}
+\end{DoxyParamCaption}
+)~if(Serial\+Debug\+Level!={\bf Off} \&\& level $<$= {\bf Serial\+Debug\+Level}) Serial.\+print(message)}\hypertarget{SerialDebug_8h_a94c021eedec413719a519e8652592d41}{}\label{SerialDebug_8h_a94c021eedec413719a519e8652592d41}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!D\+E\+B\+U\+G\+\_\+\+LF@{D\+E\+B\+U\+G\+\_\+\+LF}}
+\index{D\+E\+B\+U\+G\+\_\+\+LF@{D\+E\+B\+U\+G\+\_\+\+LF}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{D\+E\+B\+U\+G\+\_\+\+LF}{DEBUG_LF}}]{\setlength{\rightskip}{0pt plus 5cm}\#define D\+E\+B\+U\+G\+\_\+\+LF(
+\begin{DoxyParamCaption}
+\item[{}]{level, }
+\item[{}]{message}
+\end{DoxyParamCaption}
+)~if(Serial\+Debug\+Level!={\bf Off} \&\& level $<$= {\bf Serial\+Debug\+Level}) Serial.\+println(message)}\hypertarget{SerialDebug_8h_ac28b2f0cc0d8aabe8b3148d4a5cccc6d}{}\label{SerialDebug_8h_ac28b2f0cc0d8aabe8b3148d4a5cccc6d}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!T\+E\+R\+M\+I\+N\+AL@{T\+E\+R\+M\+I\+N\+AL}}
+\index{T\+E\+R\+M\+I\+N\+AL@{T\+E\+R\+M\+I\+N\+AL}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{T\+E\+R\+M\+I\+N\+AL}{TERMINAL}}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+E\+R\+M\+I\+N\+AL~Serial.\+print}\hypertarget{SerialDebug_8h_a5250b667cb28dd60b71e6e04e23eac37}{}\label{SerialDebug_8h_a5250b667cb28dd60b71e6e04e23eac37}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF@{T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF}}
+\index{T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF@{T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF}{TERMINAL_LF}}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+E\+R\+M\+I\+N\+A\+L\+\_\+\+LF~Serial.\+println}\hypertarget{SerialDebug_8h_a04ed22e812ec03a8942c40bd6df5ff3b}{}\label{SerialDebug_8h_a04ed22e812ec03a8942c40bd6df5ff3b}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG@{T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG}}
+\index{T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG@{T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG}{TIMED_DEBUG}}]{\setlength{\rightskip}{0pt plus 5cm}\#define T\+I\+M\+E\+D\+\_\+\+D\+E\+B\+UG~if({\bf Flash\+Memory\+Data.\+data\+Refresh\+Time\+Met})}\hypertarget{SerialDebug_8h_a0ef4c095f19f348a7e65acabf9848f72}{}\label{SerialDebug_8h_a0ef4c095f19f348a7e65acabf9848f72}
+
+
+\subsection{Enumeration Type Documentation}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!Debug\+Levels@{Debug\+Levels}}
+\index{Debug\+Levels@{Debug\+Levels}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{Debug\+Levels}{DebugLevels}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Debug\+Levels}}\hypertarget{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4}{}\label{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{Off@{Off}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!Off@{Off}}\item[{\em 
+Off\hypertarget{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4ad8a892b94d3a94ea861543c085ae782b}{}\label{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4ad8a892b94d3a94ea861543c085ae782b}
+}]\index{Sensor@{Sensor}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!Sensor@{Sensor}}\item[{\em 
+Sensor\hypertarget{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4afd04aa7a2a2337eff410dbde4b4598ce}{}\label{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4afd04aa7a2a2337eff410dbde4b4598ce}
+}]\index{Low@{Low}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!Low@{Low}}\item[{\em 
+Low\hypertarget{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a7a352a3dd2accc1dd65a4538c3754ee8}{}\label{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a7a352a3dd2accc1dd65a4538c3754ee8}
+}]\index{Medium@{Medium}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!Medium@{Medium}}\item[{\em 
+Medium\hypertarget{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a8cfb9311a439a51b14159ed0970f398b}{}\label{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a8cfb9311a439a51b14159ed0970f398b}
+}]\index{High@{High}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!High@{High}}\item[{\em 
+High\hypertarget{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a24c57acd029e3f96fede49402ea01e6f}{}\label{SerialDebug_8h_a2e1d76111dc436b8a6e003c74f4919f4a24c57acd029e3f96fede49402ea01e6f}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{Function Documentation}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!check\+Debug\+Send\+Time@{check\+Debug\+Send\+Time}}
+\index{check\+Debug\+Send\+Time@{check\+Debug\+Send\+Time}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{check\+Debug\+Send\+Time(void)}{checkDebugSendTime(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void check\+Debug\+Send\+Time (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{SerialDebug_8h_af2b53c59b5d16b731bf52803f697e536}{}\label{SerialDebug_8h_af2b53c59b5d16b731bf52803f697e536}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!check\+Serial@{check\+Serial}}
+\index{check\+Serial@{check\+Serial}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{check\+Serial(void)}{checkSerial(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void check\+Serial (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{SerialDebug_8h_a31ea1e399090f7bf6edabad2905b4004}{}\label{SerialDebug_8h_a31ea1e399090f7bf6edabad2905b4004}
+
+
+\subsection{Variable Documentation}
+\index{Serial\+Debug.\+h@{Serial\+Debug.\+h}!Serial\+Debug\+Level@{Serial\+Debug\+Level}}
+\index{Serial\+Debug\+Level@{Serial\+Debug\+Level}!Serial\+Debug.\+h@{Serial\+Debug.\+h}}
+\subsubsection[{\texorpdfstring{Serial\+Debug\+Level}{SerialDebugLevel}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf Debug\+Levels} Serial\+Debug\+Level}\hypertarget{SerialDebug_8h_a81f9a52045ef198ec20038a6b02aba35}{}\label{SerialDebug_8h_a81f9a52045ef198ec20038a6b02aba35}

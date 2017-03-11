@@ -203,7 +203,7 @@
           <styles xmi:type="notation:FilteringStyle" xmi:id="_rShKLgVUEeeI17zGpXrajA"/>
         </children>
         <element xmi:type="realtimestatechart:State" href="../underwaterLED_arduino.muml#_rQTjoQVUEeeI17zGpXrajA"/>
-        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rShKIQVUEeeI17zGpXrajA" x="-3" y="20" width="867" height="531"/>
+        <layoutConstraint xmi:type="notation:Bounds" xmi:id="_rShKIQVUEeeI17zGpXrajA" x="-3" y="20" width="867" height="556"/>
       </children>
     </children>
     <element xmi:type="realtimestatechart:RealtimeStatechart" href="../underwaterLED_arduino.muml#_rQTjoAVUEeeI17zGpXrajA"/>

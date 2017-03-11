@@ -1,0 +1,7 @@
+<map id="onDisconnectFlash" name="onDisconnectFlash">
+<area shape="rect" id="node2" href="$LEDControlManager_8h.html#a44568cbb326ce94b800b1407bd74c3a3" title="setRedPWM" alt="" coords="188,31,285,57"/>
+<area shape="rect" id="node3" href="$LEDControlManager_8h.html#a1fb733347d7b1ebbae42b0078ede5453" title="setSCIntensity" alt="" coords="336,5,445,32"/>
+<area shape="rect" id="node6" href="$States_8h.html#a19ebe9f470610e6867c7f4724aa5da9b" title="initializeSystem" alt="" coords="333,56,448,83"/>
+<area shape="rect" id="node4" href="$States_8cpp.html#a014eac3f1950f3311061d95e6240e35e" title="SCNominalState" alt="" coords="496,5,616,32"/>
+<area shape="rect" id="node5" href="$States_8h.html#a4ff66e43394ec663d13535ac7f85b9d3" title="setState" alt="" coords="664,5,735,32"/>
+</map>

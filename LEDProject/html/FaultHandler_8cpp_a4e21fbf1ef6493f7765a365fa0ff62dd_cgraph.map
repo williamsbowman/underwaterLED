@@ -1,0 +1,8 @@
+<map id="reactToSensors" name="reactToSensors">
+<area shape="rect" id="node2" href="$FaultHandler_8cpp.html#ac8de8a862ca93b2dd5584982cce2d5a2" title="ledOverTempBehavior" alt="" coords="179,81,330,108"/>
+<area shape="rect" id="node7" href="$FaultHandler_8cpp.html#af7ed7ed53fb02033684a7bd77ce6864d" title="inputVoltageErrorBehavior" alt="" coords="168,132,341,159"/>
+<area shape="rect" id="node3" href="$classTimerClass.html#af40274762682bc80b9ec49fa54e0d5f3" title="TimerClass::startTimer" alt="" coords="416,5,572,32"/>
+<area shape="rect" id="node4" href="$classTimerClass.html#ad989f6419974f0519f1d46419e9b5472" title="TimerClass::getElapsedTimeMs" alt="" coords="389,56,599,83"/>
+<area shape="rect" id="node5" href="$classTimerClass.html#a8feed88082813446d42a26e80a3e6f1a" title="TimerClass::stopTimer" alt="" coords="417,107,571,133"/>
+<area shape="rect" id="node6" href="$classTimerClass.html#a936be93f45ffb4a64d5d1b30552780cb" title="TimerClass::resetTimer" alt="" coords="415,157,573,184"/>
+</map>

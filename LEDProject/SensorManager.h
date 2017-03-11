@@ -4,7 +4,7 @@
 #define ADC_RESOLUTION	1024
 #define ADC_VOLTAGE_REF	3.3
 
-//Thresholds
+////////// System Thresholds and Limits  /////////////
 
 //Temperatures
 #define RFDUINO_CRITICAL_TEMP_C   60  
@@ -16,6 +16,12 @@
 #define INPUT_VOLTAGE_CRITICAL_V  12.1
 #define INPUT_VOLTAGE_SAG_TIME_MS 7000 //This is the time that the analog measurement of the Input voltage has before declaring low
 
+/////////////////////////////////////////////////////
+
+/// sensorFeedback struct Description
+/**  The sensorFeedback struct holds all of the elements of the light's sensor system.
+ The struct holds the converted values (units) and flags for each of the sensors being monitored.
+ */
 struct sensorFeedback{
       int   rFDuinoTempinC;
       bool  rFDuinoOverTemp; 

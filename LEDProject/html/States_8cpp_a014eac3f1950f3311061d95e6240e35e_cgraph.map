@@ -1,0 +1,17 @@
+<map id="SCNominalState" name="SCNominalState">
+<area shape="rect" id="node2" href="$LEDControlManager_8cpp.html#a1fb733347d7b1ebbae42b0078ede5453" title="setSCIntensity" alt="" coords="173,157,283,184"/>
+<area shape="rect" id="node9" href="$SensorManager_8cpp.html#ab791afb3dfb01137d61ffcc1a312ade5" title="checkSensors" alt="" coords="175,284,281,311"/>
+<area shape="rect" id="node3" href="$LEDControlManager_8cpp.html#a44568cbb326ce94b800b1407bd74c3a3" title="setRedPWM" alt="" coords="387,107,484,133"/>
+<area shape="rect" id="node4" href="$LEDControlManager_8h.html#a5f7040b85d3431166dad2842730f077c" title="setGreenPWM" alt="" coords="601,5,709,32"/>
+<area shape="rect" id="node5" href="$LEDControlManager_8h.html#a91457a286ce7ad9931a802f91dd1542c" title="setBluePWM" alt="" coords="606,56,705,83"/>
+<area shape="rect" id="node6" href="$LEDControlManager_8h.html#a63e99d1d357e27cdba2122126293ac7a" title="setRGBColors" alt="" coords="602,107,709,133"/>
+<area shape="rect" id="node7" href="$LEDControlManager_8h.html#ad3ec9b8ca1fb8ab67b960876b5761b42" title="onConnectFlash" alt="" coords="597,157,714,184"/>
+<area shape="rect" id="node8" href="$LEDControlManager_8h.html#a9e6967c01a7e2bfae8a3281ef3eb02c4" title="onDisconnectFlash" alt="" coords="588,208,723,235"/>
+<area shape="rect" id="node10" href="$SensorManager_8h.html#a1b9f0e0ff57635f1e86c2c7fcddab439" title="getRFDuinoTempinC" alt="" coords="363,157,508,184"/>
+<area shape="rect" id="node11" href="$SensorManager_8cpp.html#a1c943d491d2f32971f84a2eecdf00f2e" title="getLEDTempinC" alt="" coords="376,208,495,235"/>
+<area shape="rect" id="node12" href="$SensorManager_8cpp.html#a2bc89f165614192d9972b8259a6a45e7" title="getInputVoltageinV" alt="" coords="369,259,501,285"/>
+<area shape="rect" id="node13" href="$classTimerClass.html#af40274762682bc80b9ec49fa54e0d5f3" title="TimerClass::startTimer" alt="" coords="357,309,513,336"/>
+<area shape="rect" id="node14" href="$classTimerClass.html#ad989f6419974f0519f1d46419e9b5472" title="TimerClass::getElapsedTimeMs" alt="" coords="331,360,540,387"/>
+<area shape="rect" id="node15" href="$classTimerClass.html#a8feed88082813446d42a26e80a3e6f1a" title="TimerClass::stopTimer" alt="" coords="358,411,513,437"/>
+<area shape="rect" id="node16" href="$classTimerClass.html#a936be93f45ffb4a64d5d1b30552780cb" title="TimerClass::resetTimer" alt="" coords="356,461,515,488"/>
+</map>

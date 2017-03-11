@@ -1,0 +1,21 @@
+<map id="setState" name="setState">
+<area shape="rect" id="node2" href="$States_8cpp.html#a94a0a3dea0a4d6e139048a509e9af485" title="checkState" alt="" coords="306,208,394,235"/>
+<area shape="rect" id="node11" href="$States_8cpp.html#a014eac3f1950f3311061d95e6240e35e" title="SCNominalState" alt="" coords="124,259,244,285"/>
+<area shape="rect" id="node19" href="$States_8cpp.html#a97ec32d4f361a6ccb14d50c278bd8918" title="SCFaultState" alt="" coords="133,157,235,184"/>
+<area shape="rect" id="node3" href="$SensorManager_8cpp.html#ab791afb3dfb01137d61ffcc1a312ade5" title="checkSensors" alt="" coords="456,183,561,209"/>
+<area shape="rect" id="node4" href="$SensorManager_8h.html#a1b9f0e0ff57635f1e86c2c7fcddab439" title="getRFDuinoTempinC" alt="" coords="641,259,787,285"/>
+<area shape="rect" id="node5" href="$SensorManager_8cpp.html#a1c943d491d2f32971f84a2eecdf00f2e" title="getLEDTempinC" alt="" coords="655,309,773,336"/>
+<area shape="rect" id="node6" href="$SensorManager_8cpp.html#a2bc89f165614192d9972b8259a6a45e7" title="getInputVoltageinV" alt="" coords="648,5,780,32"/>
+<area shape="rect" id="node7" href="$classTimerClass.html#af40274762682bc80b9ec49fa54e0d5f3" title="TimerClass::startTimer" alt="" coords="636,56,792,83"/>
+<area shape="rect" id="node8" href="$classTimerClass.html#ad989f6419974f0519f1d46419e9b5472" title="TimerClass::getElapsedTimeMs" alt="" coords="609,107,819,133"/>
+<area shape="rect" id="node9" href="$classTimerClass.html#a8feed88082813446d42a26e80a3e6f1a" title="TimerClass::stopTimer" alt="" coords="637,157,791,184"/>
+<area shape="rect" id="node10" href="$classTimerClass.html#a936be93f45ffb4a64d5d1b30552780cb" title="TimerClass::resetTimer" alt="" coords="635,208,793,235"/>
+<area shape="rect" id="node12" href="$LEDControlManager_8cpp.html#a1fb733347d7b1ebbae42b0078ede5453" title="setSCIntensity" alt="" coords="295,385,405,412"/>
+<area shape="rect" id="node13" href="$LEDControlManager_8cpp.html#a44568cbb326ce94b800b1407bd74c3a3" title="setRedPWM" alt="" coords="460,436,557,463"/>
+<area shape="rect" id="node14" href="$LEDControlManager_8h.html#a5f7040b85d3431166dad2842730f077c" title="setGreenPWM" alt="" coords="660,461,768,488"/>
+<area shape="rect" id="node15" href="$LEDControlManager_8h.html#a91457a286ce7ad9931a802f91dd1542c" title="setBluePWM" alt="" coords="665,512,763,539"/>
+<area shape="rect" id="node16" href="$LEDControlManager_8h.html#a63e99d1d357e27cdba2122126293ac7a" title="setRGBColors" alt="" coords="661,563,767,589"/>
+<area shape="rect" id="node17" href="$LEDControlManager_8h.html#ad3ec9b8ca1fb8ab67b960876b5761b42" title="onConnectFlash" alt="" coords="655,360,773,387"/>
+<area shape="rect" id="node18" href="$LEDControlManager_8h.html#a9e6967c01a7e2bfae8a3281ef3eb02c4" title="onDisconnectFlash" alt="" coords="647,411,781,437"/>
+<area shape="rect" id="node20" href="$FaultHandler_8cpp.html#ae16fac85dbd867f57af7f50349a69cbe" title="processSCFault" alt="" coords="292,157,408,184"/>
+</map>

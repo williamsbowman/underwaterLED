@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xmlns:sda="http://www.muml.org/storydiagram/activities/1.0.0" xsi:schemaLocation="http://www.muml.org/storydiagram/activities/1.0.0 http://www.muml.org/storydiagram/1.0.0#//activities" xmi:id="_hB6fIAYnEeemXYUhnRHxoA" type="Storydiagrams" measurementUnit="Pixel">
+  <children xmi:type="notation:Shape" xmi:id="_kmojEAYnEeemXYUhnRHxoA" type="2005" fontName="Ubuntu">
+    <children xmi:type="notation:DecorationNode" xmi:id="_kmqYQAYnEeemXYUhnRHxoA" type="5013"/>
+    <element xmi:type="sda:InitialNode" href="../underwaterLED_arduino.muml#_kmQIkAYnEeemXYUhnRHxoA"/>
+    <layoutConstraint xmi:type="notation:Bounds" xmi:id="_kmojEQYnEeemXYUhnRHxoA" x="180" y="57"/>
+  </children>
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_hB6fIQYnEeemXYUhnRHxoA"/>
+  <element xmi:type="sda:Activity" href="../underwaterLED_arduino.muml#_hBnkMAYnEeemXYUhnRHxoA"/>
+</notation:Diagram>

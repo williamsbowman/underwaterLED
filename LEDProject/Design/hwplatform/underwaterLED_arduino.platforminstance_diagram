@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<notation:Diagram xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:hwplatforminstance="http://www.muml.org/pm/hardware/hwplatforminstance/1.0.0" xmlns:notation="http://www.eclipse.org/gmf/runtime/1.0.2/notation" xsi:schemaLocation="http://www.muml.org/pm/hardware/hwplatforminstance/1.0.0 http://www.muml.org/pm/hardware/1.0.0#//hwplatforminstance" xmi:id="_rHqLoAYdEee3I5dLa7f-gA" type="PlatformInstance" measurementUnit="Pixel">
+  <styles xmi:type="notation:DiagramStyle" xmi:id="_rHqLoQYdEee3I5dLa7f-gA"/>
+  <element xmi:type="hwplatforminstance:HWPlatformInstanceConfiguration" href="../underwaterLED_arduino.muml#_rHi24AYdEee3I5dLa7f-gA"/>
+</notation:Diagram>

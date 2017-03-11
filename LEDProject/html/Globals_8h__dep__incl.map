@@ -1,0 +1,11 @@
+<map id="Globals.h" name="Globals.h">
+<area shape="rect" id="node2" href="$FaultHandler_8h.html" title="FaultHandler.h" alt="" coords="95,80,202,107"/>
+<area shape="rect" id="node3" href="$FaultHandler_8cpp.html" title="FaultHandler.cpp" alt="" coords="5,155,127,181"/>
+<area shape="rect" id="node4" href="$States_8cpp.html" title="States.cpp" alt="" coords="203,229,289,256"/>
+<area shape="rect" id="node5" href="$HardwareConfiguration_8h.html" title="HardwareConfiguration.h" alt="" coords="277,80,444,107"/>
+<area shape="rect" id="node7" href="$SensorManager_8cpp.html" title="SensorManager.cpp" alt="" coords="463,229,602,256"/>
+<area shape="rect" id="node9" href="$Globals_8cpp.html" title="Globals.cpp" alt="" coords="570,80,661,107"/>
+<area shape="rect" id="node10" href="$LEDControlManager_8cpp.html" title="LEDControlManager.cpp" alt="" coords="685,80,850,107"/>
+<area shape="rect" id="node6" href="$SerialDebug_8h.html" title="SerialDebug.h" alt="" coords="327,155,431,181"/>
+<area shape="rect" id="node8" href="$SerialDebug_8cpp.html" title="SerialDebug.cpp" alt="" coords="320,229,439,256"/>
+</map>

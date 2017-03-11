@@ -1,0 +1,10 @@
+<map id="TimerClass::getElapsedTimeMs" name="TimerClass::getElapsedTimeMs">
+<area shape="rect" id="node2" href="$FaultHandler_8cpp.html#ac8de8a862ca93b2dd5584982cce2d5a2" title="ledOverTempBehavior" alt="" coords="263,19,413,45"/>
+<area shape="rect" id="node4" href="$SensorManager_8h.html#ab791afb3dfb01137d61ffcc1a312ade5" title="checkSensors" alt="" coords="285,95,391,121"/>
+<area shape="rect" id="node3" href="$FaultHandler_8cpp.html#a4e21fbf1ef6493f7765a365fa0ff62dd" title="reactToSensors" alt="" coords="462,5,577,32"/>
+<area shape="rect" id="node5" href="$FaultHandler_8h.html#ae16fac85dbd867f57af7f50349a69cbe" title="processSCFault" alt="" coords="461,56,577,83"/>
+<area shape="rect" id="node8" href="$States_8cpp.html#a014eac3f1950f3311061d95e6240e35e" title="SCNominalState" alt="" coords="625,107,745,133"/>
+<area shape="rect" id="node9" href="$States_8cpp.html#a94a0a3dea0a4d6e139048a509e9af485" title="checkState" alt="" coords="641,157,729,184"/>
+<area shape="rect" id="node6" href="$States_8cpp.html#a97ec32d4f361a6ccb14d50c278bd8918" title="SCFaultState" alt="" coords="635,56,736,83"/>
+<area shape="rect" id="node7" href="$States_8h.html#a4ff66e43394ec663d13535ac7f85b9d3" title="setState" alt="" coords="793,107,864,133"/>
+</map>

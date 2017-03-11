@@ -20,7 +20,7 @@ void setup() {
 void loop() {
 
 #if RGB_DRIVER
-	while (RFduinoBLE.radioActive);
+	while (RFduinoBLE.radioActive); //Don't do anything else if radio is busy
 #endif
 
   checkBootComplete();
@@ -30,9 +30,9 @@ void loop() {
  gbl_systemTimerinMs = millis();
  // checkDebugSendTime();
   
-
+//This code runs when system has finished booting and running nominally
   if (gbl_systemBootFlag){
-	  setState();
+	  //setState();
 	  
 
 	  //TERMINAL_LF(TestTimer.getElapsedTimeMs()); //REMOVE
@@ -45,6 +45,8 @@ void loop() {
 
 
 //////////////////Callback and Interrupt functions//////////////////////
+
+#if RGB_DRIVER
 void RFduinoBLE_onConnect() {
 onRadioConnect();
 }
@@ -52,5 +54,6 @@ onRadioConnect();
 void RFduinoBLE_onDisconnect() {
 onRadioDisconnect();  
 }
+#endif
 
 /////////////////////////////////////////////////////////////////////////

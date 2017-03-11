@@ -1,0 +1,10 @@
+<map id="checkState" name="checkState">
+<area shape="rect" id="node2" href="$SensorManager_8cpp.html#ab791afb3dfb01137d61ffcc1a312ade5" title="checkSensors" alt="" coords="141,157,247,184"/>
+<area shape="rect" id="node3" href="$SensorManager_8h.html#a1b9f0e0ff57635f1e86c2c7fcddab439" title="getRFDuinoTempinC" alt="" coords="327,5,472,32"/>
+<area shape="rect" id="node4" href="$SensorManager_8cpp.html#a1c943d491d2f32971f84a2eecdf00f2e" title="getLEDTempinC" alt="" coords="340,56,459,83"/>
+<area shape="rect" id="node5" href="$SensorManager_8cpp.html#a2bc89f165614192d9972b8259a6a45e7" title="getInputVoltageinV" alt="" coords="333,107,465,133"/>
+<area shape="rect" id="node6" href="$classTimerClass.html#af40274762682bc80b9ec49fa54e0d5f3" title="TimerClass::startTimer" alt="" coords="321,157,477,184"/>
+<area shape="rect" id="node7" href="$classTimerClass.html#ad989f6419974f0519f1d46419e9b5472" title="TimerClass::getElapsedTimeMs" alt="" coords="295,208,504,235"/>
+<area shape="rect" id="node8" href="$classTimerClass.html#a8feed88082813446d42a26e80a3e6f1a" title="TimerClass::stopTimer" alt="" coords="322,259,477,285"/>
+<area shape="rect" id="node9" href="$classTimerClass.html#a936be93f45ffb4a64d5d1b30552780cb" title="TimerClass::resetTimer" alt="" coords="320,309,479,336"/>
+</map>

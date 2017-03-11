@@ -1,0 +1,12 @@
+<map id="LEDControlManager.h" name="LEDControlManager.h">
+<area shape="rect" id="node2" href="$Globals_8h.html" title="Globals.h" alt="" coords="300,80,377,107"/>
+<area shape="rect" id="node5" href="$States_8cpp.html" title="States.cpp" alt="" coords="464,304,549,331"/>
+<area shape="rect" id="node11" href="$LEDControlManager_8cpp.html" title="LEDControlManager.cpp" alt="" coords="619,155,784,181"/>
+<area shape="rect" id="node3" href="$FaultHandler_8h.html" title="FaultHandler.h" alt="" coords="195,155,301,181"/>
+<area shape="rect" id="node4" href="$FaultHandler_8cpp.html" title="FaultHandler.cpp" alt="" coords="117,229,238,256"/>
+<area shape="rect" id="node6" href="$HardwareConfiguration_8h.html" title="HardwareConfiguration.h" alt="" coords="377,155,543,181"/>
+<area shape="rect" id="node8" href="$SensorManager_8cpp.html" title="SensorManager.cpp" alt="" coords="47,304,185,331"/>
+<area shape="rect" id="node10" href="$Globals_8cpp.html" title="Globals.cpp" alt="" coords="29,155,120,181"/>
+<area shape="rect" id="node7" href="$SerialDebug_8h.html" title="SerialDebug.h" alt="" coords="341,229,445,256"/>
+<area shape="rect" id="node9" href="$SerialDebug_8cpp.html" title="SerialDebug.cpp" alt="" coords="321,304,439,331"/>
+</map>

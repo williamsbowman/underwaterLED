@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<modelinstance:RootNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:component="http://www.muml.org/pim/component/1.0.0" xmlns:instance="http://www.muml.org/pim/instance/1.0.0" xmlns:modelinstance="http://www.muml.org/modelinstance/1.0.0" xmlns:realtimestatechart="http://www.muml.org/pim/realtimestatechart/1.0.0" xmlns:sda="http://www.muml.org/storydiagram/activities/1.0.0" xmlns:types="http://www.muml.org/pim/types/1.0.0" xmi:id="_g9dtwAVHEeeI17zGpXrajA">
+<modelinstance:RootNode xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:component="http://www.muml.org/pim/component/1.0.0" xmlns:componentsdd="http://www.muml.org/reconfiguration/verification/sdd/componentsdd/1.0.0" xmlns:componentstorydiagram="http://www.muml.org/reconfiguration/componentstorydiagram/1.0.0" xmlns:hwplatform="http://www.muml.org/pm/hardware/hwplatform/1.0.0" xmlns:hwplatforminstance="http://www.muml.org/pm/hardware/hwplatforminstance/1.0.0" xmlns:instance="http://www.muml.org/pim/instance/1.0.0" xmlns:modelinstance="http://www.muml.org/modelinstance/1.0.0" xmlns:realtimestatechart="http://www.muml.org/pim/realtimestatechart/1.0.0" xmlns:sda="http://www.muml.org/storydiagram/activities/1.0.0" xmlns:types="http://www.muml.org/pim/types/1.0.0" xmi:id="_g9dtwAVHEeeI17zGpXrajA">
   <categories xmi:id="_g9dtwQVHEeeI17zGpXrajA" key="org.muml.types.category" name="types"/>
   <categories xmi:id="_g9dtwgVHEeeI17zGpXrajA" key="org.muml.pim.realtimestatechart.category" name="realtimestatechart">
     <modelElements xsi:type="realtimestatechart:RealtimeStatechart" xmi:id="_rQTjoAVUEeeI17zGpXrajA" name="statechart">
@@ -29,7 +29,7 @@
           </embeddedStatechart>
         </embeddedRegions>
         <embeddedRegions xmi:id="_YN7FkAVZEeeI17zGpXrajA" priority="2">
-          <embeddedStatechart xmi:id="_YN7FkQVZEeeI17zGpXrajA" name="statechart">
+          <embeddedStatechart xmi:id="_YN7FkQVZEeeI17zGpXrajA" name="Single LED System">
             <transitions xmi:id="_uWLEMAVbEeeI17zGpXrajA" priority="1" target="_d3tGoAVbEeeI17zGpXrajA" source="_YN7FkgVZEeeI17zGpXrajA"/>
             <transitions xmi:id="_u8zmYAVbEeeI17zGpXrajA" priority="1" target="_YN7FkgVZEeeI17zGpXrajA" source="_d3tGoAVbEeeI17zGpXrajA"/>
             <states xmi:id="_YN7FkgVZEeeI17zGpXrajA" name="SC_Nominal" outgoingTransitions="_uWLEMAVbEeeI17zGpXrajA" incomingTransitions="_u8zmYAVbEeeI17zGpXrajA" initial="true">
@@ -162,6 +162,31 @@
   </categories>
   <categories xmi:id="_g9dtxwVHEeeI17zGpXrajA" key="org.muml.pim.messagetype.category" name="msgtype"/>
   <categories xmi:id="_jWHnMAVHEeeI17zGpXrajA" key="org.muml.storydiagram.category" name="storydiagrams">
-    <modelElements xsi:type="sda:Activity" xmi:id="_jWLRkAVHEeeI17zGpXrajA"/>
+    <modelElements xsi:type="sda:Activity" xmi:id="_hBnkMAYnEeemXYUhnRHxoA">
+      <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_kmQIkAYnEeemXYUhnRHxoA"/>
+    </modelElements>
+  </categories>
+  <categories xmi:id="_rHfMgAYdEee3I5dLa7f-gA" key="org.muml.pm.hardware.hwplatform.category" name="hwplatform">
+    <modelElements xsi:type="hwplatforminstance:HWPlatformInstanceConfiguration" xmi:id="_rHi24AYdEee3I5dLa7f-gA"/>
+    <modelElements xsi:type="hwplatform:HWPlatform" xmi:id="_-C2DQAYdEee3I5dLa7f-gA" name="Analog Sensors"/>
+  </categories>
+  <categories xmi:id="_ZZLooAYmEeemXYUhnRHxoA" key="org.muml.storydiagram.activities.category" name="activities">
+    <modelElements xsi:type="componentstorydiagram:ComponentStoryRule" xmi:id="_ZZTkcAYmEeemXYUhnRHxoA">
+      <activity xmi:id="_2lHP8AYpEeemXYUhnRHxoA" name="activity">
+        <ownedActivityNodes xsi:type="componentstorydiagram:ComponentStoryNode" xmi:id="_jFyUAAYqEeemXYUhnRHxoA">
+          <componentStoryPattern xmi:id="_jFziIAYqEeemXYUhnRHxoA" name="componentStoryPattern">
+            <thisVariable xmi:id="_jG68cAYqEeemXYUhnRHxoA" name="this"/>
+          </componentStoryPattern>
+        </ownedActivityNodes>
+        <ownedActivityNodes xsi:type="componentstorydiagram:ComponentStoryNode" xmi:id="_nYBlQAYqEeemXYUhnRHxoA">
+          <componentStoryPattern xmi:id="_nYBlQQYqEeemXYUhnRHxoA" name="componentStoryPattern">
+            <thisVariable xmi:id="_nYBlQgYqEeemXYUhnRHxoA" name="this"/>
+          </componentStoryPattern>
+        </ownedActivityNodes>
+      </activity>
+    </modelElements>
+  </categories>
+  <categories xmi:id="_fDVvEAYmEeemXYUhnRHxoA" key="org.muml.reconfiguration.verification.sdd.componentssdd.category" name="componentsdd">
+    <modelElements xsi:type="componentsdd:ComponentStoryDecisionDiagram" xmi:id="_fDW9MAYmEeemXYUhnRHxoA" name="CSDD"/>
   </categories>
 </modelinstance:RootNode>

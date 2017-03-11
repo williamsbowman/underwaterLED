@@ -1,0 +1,175 @@
+\hypertarget{States_8h}{}\section{States.\+h File Reference}
+\label{States_8h}\index{States.\+h@{States.\+h}}
+This graph shows which files directly or indirectly include this file\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8h__dep__incl}
+\end{center}
+\end{figure}
+\subsection*{Enumerations}
+\begin{DoxyCompactItemize}
+\item 
+enum \hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444}{States} \{ \\*
+\hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444a96e0c52c324ad0975fdd194f7dcaef5b}{R\+G\+B\+\_\+\+Disconnected}, 
+\hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444acfdfac3fe3a3d16a4402bd4b5a1a1bae}{R\+G\+B\+\_\+\+Connected}, 
+\hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444a2e47817ed677275f0ba1c665f610faa3}{R\+G\+B\+\_\+\+Fault}, 
+\hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444aae80d1b70b2876bf838a560703e4920d}{S\+C\+\_\+\+Nominal}, 
+\\*
+\hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444afb4ff030e43dfdca8d6d5bf8417df529}{S\+C\+\_\+\+Fault}, 
+\hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444a1e36dd5b51c468e33bcf160523d402a7}{Boot}
+ \}
+\end{DoxyCompactItemize}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{States_8h_acaf637afd0683b349d523ddc12ee65bd}{on\+Radio\+Connect} (void)
+\item 
+void \hyperlink{States_8h_a0cb8e1ac67bc4d1ca7c9950caf334d14}{on\+Radio\+Disconnect} (void)
+\item 
+void \hyperlink{States_8h_a88e12751e4ec18de911d1a6a370394fd}{configure\+Pins} (void)
+\item 
+void \hyperlink{States_8h_a19ebe9f470610e6867c7f4724aa5da9b}{initialize\+System} (void)
+\item 
+void \hyperlink{States_8h_a003b78d5f813ae024018e90b3f67616d}{print\+Start\+Up\+Data} (void)
+\item 
+void \hyperlink{States_8h_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35}{check\+Boot\+Complete} (void)
+\item 
+void \hyperlink{States_8h_a4ff66e43394ec663d13535ac7f85b9d3}{set\+State} (void)
+\end{DoxyCompactItemize}
+
+
+\subsection{Enumeration Type Documentation}
+\index{States.\+h@{States.\+h}!States@{States}}
+\index{States@{States}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{States}{States}}]{\setlength{\rightskip}{0pt plus 5cm}enum {\bf States}}\hypertarget{States_8h_a808e5cd4979462d3bbe3070d7d147444}{}\label{States_8h_a808e5cd4979462d3bbe3070d7d147444}
+\begin{Desc}
+\item[Enumerator]\par
+\begin{description}
+\index{R\+G\+B\+\_\+\+Disconnected@{R\+G\+B\+\_\+\+Disconnected}!States.\+h@{States.\+h}}\index{States.\+h@{States.\+h}!R\+G\+B\+\_\+\+Disconnected@{R\+G\+B\+\_\+\+Disconnected}}\item[{\em 
+R\+G\+B\+\_\+\+Disconnected\hypertarget{States_8h_a808e5cd4979462d3bbe3070d7d147444a96e0c52c324ad0975fdd194f7dcaef5b}{}\label{States_8h_a808e5cd4979462d3bbe3070d7d147444a96e0c52c324ad0975fdd194f7dcaef5b}
+}]\index{R\+G\+B\+\_\+\+Connected@{R\+G\+B\+\_\+\+Connected}!States.\+h@{States.\+h}}\index{States.\+h@{States.\+h}!R\+G\+B\+\_\+\+Connected@{R\+G\+B\+\_\+\+Connected}}\item[{\em 
+R\+G\+B\+\_\+\+Connected\hypertarget{States_8h_a808e5cd4979462d3bbe3070d7d147444acfdfac3fe3a3d16a4402bd4b5a1a1bae}{}\label{States_8h_a808e5cd4979462d3bbe3070d7d147444acfdfac3fe3a3d16a4402bd4b5a1a1bae}
+}]\index{R\+G\+B\+\_\+\+Fault@{R\+G\+B\+\_\+\+Fault}!States.\+h@{States.\+h}}\index{States.\+h@{States.\+h}!R\+G\+B\+\_\+\+Fault@{R\+G\+B\+\_\+\+Fault}}\item[{\em 
+R\+G\+B\+\_\+\+Fault\hypertarget{States_8h_a808e5cd4979462d3bbe3070d7d147444a2e47817ed677275f0ba1c665f610faa3}{}\label{States_8h_a808e5cd4979462d3bbe3070d7d147444a2e47817ed677275f0ba1c665f610faa3}
+}]\index{S\+C\+\_\+\+Nominal@{S\+C\+\_\+\+Nominal}!States.\+h@{States.\+h}}\index{States.\+h@{States.\+h}!S\+C\+\_\+\+Nominal@{S\+C\+\_\+\+Nominal}}\item[{\em 
+S\+C\+\_\+\+Nominal\hypertarget{States_8h_a808e5cd4979462d3bbe3070d7d147444aae80d1b70b2876bf838a560703e4920d}{}\label{States_8h_a808e5cd4979462d3bbe3070d7d147444aae80d1b70b2876bf838a560703e4920d}
+}]\index{S\+C\+\_\+\+Fault@{S\+C\+\_\+\+Fault}!States.\+h@{States.\+h}}\index{States.\+h@{States.\+h}!S\+C\+\_\+\+Fault@{S\+C\+\_\+\+Fault}}\item[{\em 
+S\+C\+\_\+\+Fault\hypertarget{States_8h_a808e5cd4979462d3bbe3070d7d147444afb4ff030e43dfdca8d6d5bf8417df529}{}\label{States_8h_a808e5cd4979462d3bbe3070d7d147444afb4ff030e43dfdca8d6d5bf8417df529}
+}]\index{Boot@{Boot}!States.\+h@{States.\+h}}\index{States.\+h@{States.\+h}!Boot@{Boot}}\item[{\em 
+Boot\hypertarget{States_8h_a808e5cd4979462d3bbe3070d7d147444a1e36dd5b51c468e33bcf160523d402a7}{}\label{States_8h_a808e5cd4979462d3bbe3070d7d147444a1e36dd5b51c468e33bcf160523d402a7}
+}]\end{description}
+\end{Desc}
+
+
+\subsection{Function Documentation}
+\index{States.\+h@{States.\+h}!check\+Boot\+Complete@{check\+Boot\+Complete}}
+\index{check\+Boot\+Complete@{check\+Boot\+Complete}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{check\+Boot\+Complete(void)}{checkBootComplete(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void check\+Boot\+Complete (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8h_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35}{}\label{States_8h_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{States_8h_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+h@{States.\+h}!configure\+Pins@{configure\+Pins}}
+\index{configure\+Pins@{configure\+Pins}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{configure\+Pins(void)}{configurePins(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void configure\+Pins (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8h_a88e12751e4ec18de911d1a6a370394fd}{}\label{States_8h_a88e12751e4ec18de911d1a6a370394fd}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{States_8h_a88e12751e4ec18de911d1a6a370394fd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+h@{States.\+h}!initialize\+System@{initialize\+System}}
+\index{initialize\+System@{initialize\+System}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{initialize\+System(void)}{initializeSystem(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void initialize\+System (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8h_a19ebe9f470610e6867c7f4724aa5da9b}{}\label{States_8h_a19ebe9f470610e6867c7f4724aa5da9b}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8h_a19ebe9f470610e6867c7f4724aa5da9b_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+h@{States.\+h}!on\+Radio\+Connect@{on\+Radio\+Connect}}
+\index{on\+Radio\+Connect@{on\+Radio\+Connect}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{on\+Radio\+Connect(void)}{onRadioConnect(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void on\+Radio\+Connect (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8h_acaf637afd0683b349d523ddc12ee65bd}{}\label{States_8h_acaf637afd0683b349d523ddc12ee65bd}
+\index{States.\+h@{States.\+h}!on\+Radio\+Disconnect@{on\+Radio\+Disconnect}}
+\index{on\+Radio\+Disconnect@{on\+Radio\+Disconnect}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{on\+Radio\+Disconnect(void)}{onRadioDisconnect(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void on\+Radio\+Disconnect (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8h_a0cb8e1ac67bc4d1ca7c9950caf334d14}{}\label{States_8h_a0cb8e1ac67bc4d1ca7c9950caf334d14}
+\index{States.\+h@{States.\+h}!print\+Start\+Up\+Data@{print\+Start\+Up\+Data}}
+\index{print\+Start\+Up\+Data@{print\+Start\+Up\+Data}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{print\+Start\+Up\+Data(void)}{printStartUpData(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Start\+Up\+Data (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8h_a003b78d5f813ae024018e90b3f67616d}{}\label{States_8h_a003b78d5f813ae024018e90b3f67616d}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{States_8h_a003b78d5f813ae024018e90b3f67616d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+h@{States.\+h}!set\+State@{set\+State}}
+\index{set\+State@{set\+State}!States.\+h@{States.\+h}}
+\subsubsection[{\texorpdfstring{set\+State(void)}{setState(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void set\+State (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8h_a4ff66e43394ec663d13535ac7f85b9d3}{}\label{States_8h_a4ff66e43394ec663d13535ac7f85b9d3}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8h_a4ff66e43394ec663d13535ac7f85b9d3_cgraph}
+\end{center}
+\end{figure}
+
+

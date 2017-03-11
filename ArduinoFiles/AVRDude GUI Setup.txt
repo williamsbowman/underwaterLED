@@ -1,3 +1,0 @@
-In order to install the AVR dude GUI in Linux, go to this site and follow the instructions:
-
-http://blog.zakkemble.co.uk/avrdudess-a-gui-for-avrdude/

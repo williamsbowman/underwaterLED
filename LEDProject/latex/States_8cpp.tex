@@ -1,0 +1,246 @@
+\hypertarget{States_8cpp}{}\section{States.\+cpp File Reference}
+\label{States_8cpp}\index{States.\+cpp@{States.\+cpp}}
+{\ttfamily \#include \char`\"{}States.\+h\char`\"{}}\\*
+{\ttfamily \#include $<$Arduino.\+h$>$}\\*
+{\ttfamily \#include $<$string.\+h$>$}\\*
+{\ttfamily \#include \char`\"{}Pin\+Definitions.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}L\+E\+D\+Control\+Manager.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Globals.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Sensor\+Manager.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Hardware\+Configuration.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Serial\+Debug.\+h\char`\"{}}\\*
+{\ttfamily \#include \char`\"{}Fault\+Handler.\+h\char`\"{}}\\*
+Include dependency graph for States.\+cpp\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8cpp__incl}
+\end{center}
+\end{figure}
+\subsection*{Functions}
+\begin{DoxyCompactItemize}
+\item 
+void \hyperlink{States_8cpp_a88e12751e4ec18de911d1a6a370394fd}{configure\+Pins} (void)
+\item 
+void \hyperlink{States_8cpp_a19ebe9f470610e6867c7f4724aa5da9b}{initialize\+System} (void)
+\item 
+void \hyperlink{States_8cpp_a003b78d5f813ae024018e90b3f67616d}{print\+Start\+Up\+Data} (void)
+\item 
+void \hyperlink{States_8cpp_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35}{check\+Boot\+Complete} (void)
+\item 
+void \hyperlink{States_8cpp_a014eac3f1950f3311061d95e6240e35e}{S\+C\+Nominal\+State} (void)
+\item 
+void \hyperlink{States_8cpp_a97ec32d4f361a6ccb14d50c278bd8918}{S\+C\+Fault\+State} (void)
+\item 
+\hyperlink{States_8h_a808e5cd4979462d3bbe3070d7d147444}{States} \hyperlink{States_8cpp_a94a0a3dea0a4d6e139048a509e9af485}{check\+State} (void)
+\item 
+void \hyperlink{States_8cpp_a4ff66e43394ec663d13535ac7f85b9d3}{set\+State} (void)
+\end{DoxyCompactItemize}
+\subsection*{Variables}
+\begin{DoxyCompactItemize}
+\item 
+static bool \hyperlink{States_8cpp_a51bb69959c09a95251821128ff1a5438}{new\+State\+Print\+Flag} = false
+\item 
+class \hyperlink{classTimerClass}{Timer\+Class} \hyperlink{States_8cpp_a3fcdf9051c7095d731ae965a81a516d3}{Startup\+Timer}
+\end{DoxyCompactItemize}
+
+
+\subsection{Function Documentation}
+\index{States.\+cpp@{States.\+cpp}!check\+Boot\+Complete@{check\+Boot\+Complete}}
+\index{check\+Boot\+Complete@{check\+Boot\+Complete}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{check\+Boot\+Complete(void)}{checkBootComplete(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void check\+Boot\+Complete (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35}{}\label{States_8cpp_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{States_8cpp_abbe8f188b5d7ee5d6e0f1c8ab7fbaf35_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+cpp@{States.\+cpp}!check\+State@{check\+State}}
+\index{check\+State@{check\+State}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{check\+State(void)}{checkState(void)}}]{\setlength{\rightskip}{0pt plus 5cm}{\bf States} check\+State (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_a94a0a3dea0a4d6e139048a509e9af485}{}\label{States_8cpp_a94a0a3dea0a4d6e139048a509e9af485}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8cpp_a94a0a3dea0a4d6e139048a509e9af485_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=235pt]{States_8cpp_a94a0a3dea0a4d6e139048a509e9af485_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+cpp@{States.\+cpp}!configure\+Pins@{configure\+Pins}}
+\index{configure\+Pins@{configure\+Pins}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{configure\+Pins(void)}{configurePins(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void configure\+Pins (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_a88e12751e4ec18de911d1a6a370394fd}{}\label{States_8cpp_a88e12751e4ec18de911d1a6a370394fd}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=278pt]{States_8cpp_a88e12751e4ec18de911d1a6a370394fd_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+cpp@{States.\+cpp}!initialize\+System@{initialize\+System}}
+\index{initialize\+System@{initialize\+System}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{initialize\+System(void)}{initializeSystem(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void initialize\+System (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_a19ebe9f470610e6867c7f4724aa5da9b}{}\label{States_8cpp_a19ebe9f470610e6867c7f4724aa5da9b}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8cpp_a19ebe9f470610e6867c7f4724aa5da9b_cgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+cpp@{States.\+cpp}!print\+Start\+Up\+Data@{print\+Start\+Up\+Data}}
+\index{print\+Start\+Up\+Data@{print\+Start\+Up\+Data}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{print\+Start\+Up\+Data(void)}{printStartUpData(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void print\+Start\+Up\+Data (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_a003b78d5f813ae024018e90b3f67616d}{}\label{States_8cpp_a003b78d5f813ae024018e90b3f67616d}
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=311pt]{States_8cpp_a003b78d5f813ae024018e90b3f67616d_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+cpp@{States.\+cpp}!S\+C\+Fault\+State@{S\+C\+Fault\+State}}
+\index{S\+C\+Fault\+State@{S\+C\+Fault\+State}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{S\+C\+Fault\+State(void)}{SCFaultState(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void S\+C\+Fault\+State (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_a97ec32d4f361a6ccb14d50c278bd8918}{}\label{States_8cpp_a97ec32d4f361a6ccb14d50c278bd8918}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8cpp_a97ec32d4f361a6ccb14d50c278bd8918_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=245pt]{States_8cpp_a97ec32d4f361a6ccb14d50c278bd8918_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+cpp@{States.\+cpp}!S\+C\+Nominal\+State@{S\+C\+Nominal\+State}}
+\index{S\+C\+Nominal\+State@{S\+C\+Nominal\+State}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{S\+C\+Nominal\+State(void)}{SCNominalState(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void S\+C\+Nominal\+State (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_a014eac3f1950f3311061d95e6240e35e}{}\label{States_8cpp_a014eac3f1950f3311061d95e6240e35e}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8cpp_a014eac3f1950f3311061d95e6240e35e_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+Here is the caller graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=259pt]{States_8cpp_a014eac3f1950f3311061d95e6240e35e_icgraph}
+\end{center}
+\end{figure}
+
+
+\index{States.\+cpp@{States.\+cpp}!set\+State@{set\+State}}
+\index{set\+State@{set\+State}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{set\+State(void)}{setState(void)}}]{\setlength{\rightskip}{0pt plus 5cm}void set\+State (
+\begin{DoxyParamCaption}
+\item[{void}]{}
+\end{DoxyParamCaption}
+)}\hypertarget{States_8cpp_a4ff66e43394ec663d13535ac7f85b9d3}{}\label{States_8cpp_a4ff66e43394ec663d13535ac7f85b9d3}
+
+
+Here is the call graph for this function\+:
+\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{States_8cpp_a4ff66e43394ec663d13535ac7f85b9d3_cgraph}
+\end{center}
+\end{figure}
+
+
+
+
+\subsection{Variable Documentation}
+\index{States.\+cpp@{States.\+cpp}!new\+State\+Print\+Flag@{new\+State\+Print\+Flag}}
+\index{new\+State\+Print\+Flag@{new\+State\+Print\+Flag}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{new\+State\+Print\+Flag}{newStatePrintFlag}}]{\setlength{\rightskip}{0pt plus 5cm}bool new\+State\+Print\+Flag = false\hspace{0.3cm}{\ttfamily [static]}}\hypertarget{States_8cpp_a51bb69959c09a95251821128ff1a5438}{}\label{States_8cpp_a51bb69959c09a95251821128ff1a5438}
+\index{States.\+cpp@{States.\+cpp}!Startup\+Timer@{Startup\+Timer}}
+\index{Startup\+Timer@{Startup\+Timer}!States.\+cpp@{States.\+cpp}}
+\subsubsection[{\texorpdfstring{Startup\+Timer}{StartupTimer}}]{\setlength{\rightskip}{0pt plus 5cm}class {\bf Timer\+Class} Startup\+Timer}\hypertarget{States_8cpp_a3fcdf9051c7095d731ae965a81a516d3}{}\label{States_8cpp_a3fcdf9051c7095d731ae965a81a516d3}

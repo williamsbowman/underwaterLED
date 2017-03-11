@@ -1,0 +1,11 @@
+<map id="SCFaultState" name="SCFaultState">
+<area shape="rect" id="node2" href="$FaultHandler_8cpp.html#ae16fac85dbd867f57af7f50349a69cbe" title="processSCFault" alt="" coords="155,157,271,184"/>
+<area shape="rect" id="node3" href="$SensorManager_8cpp.html#ab791afb3dfb01137d61ffcc1a312ade5" title="checkSensors" alt="" coords="319,157,424,184"/>
+<area shape="rect" id="node4" href="$SensorManager_8h.html#a1b9f0e0ff57635f1e86c2c7fcddab439" title="getRFDuinoTempinC" alt="" coords="504,5,649,32"/>
+<area shape="rect" id="node5" href="$SensorManager_8cpp.html#a1c943d491d2f32971f84a2eecdf00f2e" title="getLEDTempinC" alt="" coords="517,56,636,83"/>
+<area shape="rect" id="node6" href="$SensorManager_8cpp.html#a2bc89f165614192d9972b8259a6a45e7" title="getInputVoltageinV" alt="" coords="511,107,643,133"/>
+<area shape="rect" id="node7" href="$classTimerClass.html#af40274762682bc80b9ec49fa54e0d5f3" title="TimerClass::startTimer" alt="" coords="499,157,655,184"/>
+<area shape="rect" id="node8" href="$classTimerClass.html#ad989f6419974f0519f1d46419e9b5472" title="TimerClass::getElapsedTimeMs" alt="" coords="472,208,681,235"/>
+<area shape="rect" id="node9" href="$classTimerClass.html#a8feed88082813446d42a26e80a3e6f1a" title="TimerClass::stopTimer" alt="" coords="499,259,654,285"/>
+<area shape="rect" id="node10" href="$classTimerClass.html#a936be93f45ffb4a64d5d1b30552780cb" title="TimerClass::resetTimer" alt="" coords="497,309,656,336"/>
+</map>

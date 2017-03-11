@@ -1,0 +1,6 @@
+<map id="ledOverTempBehavior" name="ledOverTempBehavior">
+<area shape="rect" id="node2" href="$classTimerClass.html#af40274762682bc80b9ec49fa54e0d5f3" title="TimerClass::startTimer" alt="" coords="231,5,387,32"/>
+<area shape="rect" id="node3" href="$classTimerClass.html#ad989f6419974f0519f1d46419e9b5472" title="TimerClass::getElapsedTimeMs" alt="" coords="204,56,413,83"/>
+<area shape="rect" id="node4" href="$classTimerClass.html#a8feed88082813446d42a26e80a3e6f1a" title="TimerClass::stopTimer" alt="" coords="231,107,386,133"/>
+<area shape="rect" id="node5" href="$classTimerClass.html#a936be93f45ffb4a64d5d1b30552780cb" title="TimerClass::resetTimer" alt="" coords="229,157,388,184"/>
+</map>

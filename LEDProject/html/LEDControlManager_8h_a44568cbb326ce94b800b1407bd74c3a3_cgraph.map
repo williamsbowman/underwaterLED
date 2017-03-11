@@ -1,0 +1,8 @@
+<map id="setRedPWM" name="setRedPWM">
+<area shape="rect" id="node2" href="$LEDControlManager_8cpp.html#a44568cbb326ce94b800b1407bd74c3a3" title="setRedPWM" alt="" coords="151,121,248,148"/>
+<area shape="rect" id="node3" href="$LEDControlManager_8h.html#a5f7040b85d3431166dad2842730f077c" title="setGreenPWM" alt="" coords="309,5,417,32"/>
+<area shape="rect" id="node4" href="$LEDControlManager_8h.html#a91457a286ce7ad9931a802f91dd1542c" title="setBluePWM" alt="" coords="314,93,413,120"/>
+<area shape="rect" id="node5" href="$LEDControlManager_8h.html#a63e99d1d357e27cdba2122126293ac7a" title="setRGBColors" alt="" coords="310,163,417,189"/>
+<area shape="rect" id="node6" href="$LEDControlManager_8h.html#ad3ec9b8ca1fb8ab67b960876b5761b42" title="onConnectFlash" alt="" coords="305,223,422,249"/>
+<area shape="rect" id="node7" href="$LEDControlManager_8h.html#a9e6967c01a7e2bfae8a3281ef3eb02c4" title="onDisconnectFlash" alt="" coords="296,273,431,300"/>
+</map>
