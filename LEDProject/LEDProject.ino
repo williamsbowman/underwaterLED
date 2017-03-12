@@ -23,9 +23,11 @@ void loop() {
 	while (RFduinoBLE.radioActive); //Don't do anything else if radio is busy
 #endif
 
+ //Main program starts here:
+
   checkBootComplete();
   
-  //Main program starts here:
+ 
   
  gbl_systemTimerinMs = millis();
  // checkDebugSendTime();
