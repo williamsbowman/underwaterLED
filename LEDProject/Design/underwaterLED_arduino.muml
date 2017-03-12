@@ -163,7 +163,25 @@
   <categories xmi:id="_g9dtxwVHEeeI17zGpXrajA" key="org.muml.pim.messagetype.category" name="msgtype"/>
   <categories xmi:id="_jWHnMAVHEeeI17zGpXrajA" key="org.muml.storydiagram.category" name="storydiagrams">
     <modelElements xsi:type="sda:Activity" xmi:id="_hBnkMAYnEeemXYUhnRHxoA">
-      <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_kmQIkAYnEeemXYUhnRHxoA"/>
+      <ownedActivityEdges xmi:id="_6EcBAAbuEeeA451mv2tKhg" target="_Kuc8sAbuEeeA451mv2tKhg" source="_w2TdgAbuEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_BeeUMAbwEeeA451mv2tKhg" target="_yjBBgAbvEeeA451mv2tKhg" source="_kmQIkAYnEeemXYUhnRHxoA"/>
+      <ownedActivityEdges xmi:id="_fXi1sAbwEeeA451mv2tKhg" target="_VwVgUAbvEeeA451mv2tKhg" source="_VQ95MAbuEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_nRgbkAbwEeeA451mv2tKhg" target="_VQ95MAbuEeeA451mv2tKhg" source="_VQ95MAbuEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_sy0vEAbwEeeA451mv2tKhg" target="_VQ95MAbuEeeA451mv2tKhg" source="_yjBBgAbvEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_U6UMYAbxEeeA451mv2tKhg" target="_VwVgUAbvEeeA451mv2tKhg" source="_IGpFkAbxEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_B2eSkAbyEeeA451mv2tKhg" target="_VwVgUAbvEeeA451mv2tKhg" source="_MfFsgAbxEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_J3BooAbyEeeA451mv2tKhg" target="_w2TdgAbuEeeA451mv2tKhg" source="_VwVgUAbvEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_PFn0cAbyEeeA451mv2tKhg" target="_w2TdgAbuEeeA451mv2tKhg" source="_w2TdgAbuEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_rTXckAbyEeeA451mv2tKhg" target="_VQ95MAbuEeeA451mv2tKhg" source="_Kuc8sAbuEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_kmQIkAYnEeemXYUhnRHxoA" name="System Power Up" outgoings="_BeeUMAbwEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_Kuc8sAbuEeeA451mv2tKhg" name="setState()" outgoings="_rTXckAbyEeeA451mv2tKhg" incomings="_6EcBAAbuEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:JunctionNode" xmi:id="_VQ95MAbuEeeA451mv2tKhg" name="System Booted?" outgoings="_fXi1sAbwEeeA451mv2tKhg _nRgbkAbwEeeA451mv2tKhg" incomings="_nRgbkAbwEeeA451mv2tKhg _sy0vEAbwEeeA451mv2tKhg _rTXckAbyEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:JunctionNode" xmi:id="_w2TdgAbuEeeA451mv2tKhg" outgoings="_6EcBAAbuEeeA451mv2tKhg _PFn0cAbyEeeA451mv2tKhg" incomings="_J3BooAbyEeeA451mv2tKhg _PFn0cAbyEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_VwVgUAbvEeeA451mv2tKhg" name="globalTimerUpdate()" outgoings="_J3BooAbyEeeA451mv2tKhg" incomings="_fXi1sAbwEeeA451mv2tKhg _U6UMYAbxEeeA451mv2tKhg _B2eSkAbyEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_yjBBgAbvEeeA451mv2tKhg" name="initializeSystem()" outgoings="_sy0vEAbwEeeA451mv2tKhg" incomings="_BeeUMAbwEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_IGpFkAbxEeeA451mv2tKhg" name="onRadioConnect()" outgoings="_U6UMYAbxEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_MfFsgAbxEeeA451mv2tKhg" name="onRadioDisconnect()" outgoings="_B2eSkAbyEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_5jaawAbyEeeA451mv2tKhg"/>
     </modelElements>
   </categories>
   <categories xmi:id="_rHfMgAYdEee3I5dLa7f-gA" key="org.muml.pm.hardware.hwplatform.category" name="hwplatform">
@@ -188,5 +206,6 @@
   </categories>
   <categories xmi:id="_fDVvEAYmEeemXYUhnRHxoA" key="org.muml.reconfiguration.verification.sdd.componentssdd.category" name="componentsdd">
     <modelElements xsi:type="componentsdd:ComponentStoryDecisionDiagram" xmi:id="_fDW9MAYmEeemXYUhnRHxoA" name="CSDD"/>
+    <modelElements xsi:type="componentsdd:ComponentStoryDecisionDiagram" xmi:id="_lqvh0AbfEeemXYUhnRHxoA" name="CSDD"/>
   </categories>
 </modelinstance:RootNode>
