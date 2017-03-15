@@ -46,8 +46,6 @@ unsigned long TimerClass::getElapsedTimeMs(void){
 return (gbl_systemTimerinMs - startTimeMs);
 }
 
-void loadFlashMemoryValues(void){
 
-}
 
 
