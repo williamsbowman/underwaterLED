@@ -60,6 +60,10 @@ Following is the memory layout of the RFduino:
 #define MAX_NUMBER_OF_FLASH_WRITES  18000 //20000 is max based on nordic nrF51x datasheets
 #define TIME_OF_USE_PERIOD_IN_MS    600000 // 10 minute intervals. This is 1000 millisconds * 60 seconds * 10 minutes.
 
+extern void loadFlashMemoryValues(void);
+extern void writeNewTimeofUseToFlash(void);
+extern void writeAllSettingsToFlash(void);
+
 #if RGB_DRIVER
 
 #ifdef __cplusplus
