@@ -80,9 +80,7 @@ extern enum States gbl_systemState;
 extern struct FlashMemoryData FlashMemoryData;
 extern unsigned long gbl_systemTimerinMs;
 
-extern void loadFlashMemoryValues(void);
-extern void writeNewTimeofUseToFlash(void);
-extern void writeAllSettingsToFlash(void);
+
 
 
 
