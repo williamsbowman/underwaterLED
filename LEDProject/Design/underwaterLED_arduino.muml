@@ -63,22 +63,22 @@
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_wr370AVREeeI17zGpXrajA" name="Main"/>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_1t7gcAVREeeI17zGpXrajA" name="#setGreenLED">
       <ports xsi:type="component:ContinuousPort" xmi:id="_3wDJMAVREeeI17zGpXrajA" name="percent">
-        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_7Z4WoAVREeeI17zGpXrajA" name="setRedLED">
       <ports xsi:type="component:ContinuousPort" xmi:id="_7Z4WoQVREeeI17zGpXrajA" name="percent">
-        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_9bheQAVREeeI17zGpXrajA" name="#setBlueLED">
       <ports xsi:type="component:ContinuousPort" xmi:id="_9bheQQVREeeI17zGpXrajA" name="percent">
-        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_BwZz0AVSEeeI17zGpXrajA" name="#setRGBColors">
       <ports xsi:type="component:ContinuousPort" xmi:id="_vM-fcAVSEeeI17zGpXrajA" name="void">
-        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
       <embeddedComponentParts xmi:id="_cqsQAAVSEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
         <cardinality xmi:id="_cq2BAAVSEeeI17zGpXrajA">
@@ -104,12 +104,12 @@
     </modelElements>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_Tj6RsAVSEeeI17zGpXrajA" name="setSCIntensity">
       <ports xsi:type="component:ContinuousPort" xmi:id="_VyKR8AVSEeeI17zGpXrajA" name="">
-        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_g6pz4AVTEeeI17zGpXrajA" name="#onConnectFlash">
       <ports xsi:type="component:ContinuousPort" xmi:id="_g6pz4QVTEeeI17zGpXrajA" name="void">
-        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
       <embeddedComponentParts xmi:id="_g6pz4gVTEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
         <cardinality xmi:id="_g6pz4wVTEeeI17zGpXrajA">
@@ -135,7 +135,7 @@
     </modelElements>
     <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_nRy8IAVTEeeI17zGpXrajA" name="#onDisconnectFlash">
       <ports xsi:type="component:ContinuousPort" xmi:id="_nRy8IQVTEeeI17zGpXrajA" name="void">
-        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
       <embeddedComponentParts xmi:id="_nRy8IgVTEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
         <cardinality xmi:id="_nRy8IwVTEeeI17zGpXrajA">
@@ -168,20 +168,29 @@
       <ownedActivityEdges xmi:id="_fXi1sAbwEeeA451mv2tKhg" target="_VwVgUAbvEeeA451mv2tKhg" source="_VQ95MAbuEeeA451mv2tKhg"/>
       <ownedActivityEdges xmi:id="_nRgbkAbwEeeA451mv2tKhg" target="_VQ95MAbuEeeA451mv2tKhg" source="_VQ95MAbuEeeA451mv2tKhg"/>
       <ownedActivityEdges xmi:id="_sy0vEAbwEeeA451mv2tKhg" target="_VQ95MAbuEeeA451mv2tKhg" source="_yjBBgAbvEeeA451mv2tKhg"/>
-      <ownedActivityEdges xmi:id="_U6UMYAbxEeeA451mv2tKhg" target="_VwVgUAbvEeeA451mv2tKhg" source="_IGpFkAbxEeeA451mv2tKhg"/>
-      <ownedActivityEdges xmi:id="_B2eSkAbyEeeA451mv2tKhg" target="_VwVgUAbvEeeA451mv2tKhg" source="_MfFsgAbxEeeA451mv2tKhg"/>
       <ownedActivityEdges xmi:id="_J3BooAbyEeeA451mv2tKhg" target="_w2TdgAbuEeeA451mv2tKhg" source="_VwVgUAbvEeeA451mv2tKhg"/>
-      <ownedActivityEdges xmi:id="_PFn0cAbyEeeA451mv2tKhg" target="_w2TdgAbuEeeA451mv2tKhg" source="_w2TdgAbuEeeA451mv2tKhg"/>
       <ownedActivityEdges xmi:id="_rTXckAbyEeeA451mv2tKhg" target="_VQ95MAbuEeeA451mv2tKhg" source="_Kuc8sAbuEeeA451mv2tKhg"/>
-      <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_kmQIkAYnEeemXYUhnRHxoA" name="System Power Up" outgoings="_BeeUMAbwEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_sCuwsAkmEeeA451mv2tKhg" target="_VQ95MAbuEeeA451mv2tKhg" source="_w2TdgAbuEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_cSZPAAknEeeA451mv2tKhg" target="_QgqtYAknEeeA451mv2tKhg" source="_IGpFkAbxEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_eWmicAknEeeA451mv2tKhg" target="_dIoTcAknEeeA451mv2tKhg" source="_MfFsgAbxEeeA451mv2tKhg"/>
+      <ownedActivityEdges xmi:id="_nunasAknEeeA451mv2tKhg" target="_IGpFkAbxEeeA451mv2tKhg" source="_kmQIkAYnEeemXYUhnRHxoA"/>
+      <ownedActivityEdges xmi:id="_vbtCMAknEeeA451mv2tKhg" target="_MfFsgAbxEeeA451mv2tKhg" source="_kmQIkAYnEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_kmQIkAYnEeemXYUhnRHxoA" name="System Power Up" outgoings="_BeeUMAbwEeeA451mv2tKhg _nunasAknEeeA451mv2tKhg _vbtCMAknEeeA451mv2tKhg"/>
       <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_Kuc8sAbuEeeA451mv2tKhg" name="setState()" outgoings="_rTXckAbyEeeA451mv2tKhg" incomings="_6EcBAAbuEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
-      <ownedActivityNodes xsi:type="sda:JunctionNode" xmi:id="_VQ95MAbuEeeA451mv2tKhg" name="System Booted?" outgoings="_fXi1sAbwEeeA451mv2tKhg _nRgbkAbwEeeA451mv2tKhg" incomings="_nRgbkAbwEeeA451mv2tKhg _sy0vEAbwEeeA451mv2tKhg _rTXckAbyEeeA451mv2tKhg"/>
-      <ownedActivityNodes xsi:type="sda:JunctionNode" xmi:id="_w2TdgAbuEeeA451mv2tKhg" outgoings="_6EcBAAbuEeeA451mv2tKhg _PFn0cAbyEeeA451mv2tKhg" incomings="_J3BooAbyEeeA451mv2tKhg _PFn0cAbyEeeA451mv2tKhg"/>
-      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_VwVgUAbvEeeA451mv2tKhg" name="globalTimerUpdate()" outgoings="_J3BooAbyEeeA451mv2tKhg" incomings="_fXi1sAbwEeeA451mv2tKhg _U6UMYAbxEeeA451mv2tKhg _B2eSkAbyEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:JunctionNode" xmi:id="_VQ95MAbuEeeA451mv2tKhg" name="System Booted?" outgoings="_fXi1sAbwEeeA451mv2tKhg _nRgbkAbwEeeA451mv2tKhg" incomings="_nRgbkAbwEeeA451mv2tKhg _sy0vEAbwEeeA451mv2tKhg _rTXckAbyEeeA451mv2tKhg _sCuwsAkmEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:JunctionNode" xmi:id="_w2TdgAbuEeeA451mv2tKhg" outgoings="_6EcBAAbuEeeA451mv2tKhg _sCuwsAkmEeeA451mv2tKhg" incomings="_J3BooAbyEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_VwVgUAbvEeeA451mv2tKhg" name="globalTimerUpdate()" outgoings="_J3BooAbyEeeA451mv2tKhg" incomings="_fXi1sAbwEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
       <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_yjBBgAbvEeeA451mv2tKhg" name="initializeSystem()" outgoings="_sy0vEAbwEeeA451mv2tKhg" incomings="_BeeUMAbwEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
-      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_IGpFkAbxEeeA451mv2tKhg" name="onRadioConnect()" outgoings="_U6UMYAbxEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
-      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_MfFsgAbxEeeA451mv2tKhg" name="onRadioDisconnect()" outgoings="_B2eSkAbyEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_IGpFkAbxEeeA451mv2tKhg" name="! - onRadioConnect()" outgoings="_cSZPAAknEeeA451mv2tKhg" incomings="_nunasAknEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
+      <ownedActivityNodes xsi:type="sda:ActivityCallNode" xmi:id="_MfFsgAbxEeeA451mv2tKhg" name="! - onRadioDisconnect()" outgoings="_eWmicAknEeeA451mv2tKhg" incomings="_vbtCMAknEeeA451mv2tKhg" callee="_2lHP8AYpEeemXYUhnRHxoA"/>
       <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_5jaawAbyEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:ActivityFinalNode" xmi:id="_QgqtYAknEeeA451mv2tKhg" incomings="_cSZPAAknEeeA451mv2tKhg"/>
+      <ownedActivityNodes xsi:type="sda:ActivityFinalNode" xmi:id="_dIoTcAknEeeA451mv2tKhg" incomings="_eWmicAknEeeA451mv2tKhg"/>
+    </modelElements>
+    <modelElements xsi:type="sda:Activity" xmi:id="_KyCEsAkpEeeA451mv2tKhg">
+      <ownedActivityEdges xmi:id="_TAmr0AktEeeuR7mWNi7gqg" target="_xcUc0AksEeeuR7mWNi7gqg" source="_ls_H4AksEeeuR7mWNi7gqg"/>
+      <ownedActivityNodes xsi:type="sda:InitialNode" xmi:id="_ls_H4AksEeeuR7mWNi7gqg" name="setState Entry" outgoings="_TAmr0AktEeeuR7mWNi7gqg"/>
+      <ownedActivityNodes xsi:type="sda:StatementNode" xmi:id="_xcUc0AksEeeuR7mWNi7gqg" name="gbl_systemState = checkState()" incomings="_TAmr0AktEeeuR7mWNi7gqg"/>
     </modelElements>
   </categories>
   <categories xmi:id="_rHfMgAYdEee3I5dLa7f-gA" key="org.muml.pm.hardware.hwplatform.category" name="hwplatform">
@@ -203,9 +212,12 @@
         </ownedActivityNodes>
       </activity>
     </modelElements>
+    <modelElements xsi:type="componentstorydiagram:ComponentStoryRule" xmi:id="_9Mv6wAkoEeeA451mv2tKhg"/>
   </categories>
   <categories xmi:id="_fDVvEAYmEeemXYUhnRHxoA" key="org.muml.reconfiguration.verification.sdd.componentssdd.category" name="componentsdd">
     <modelElements xsi:type="componentsdd:ComponentStoryDecisionDiagram" xmi:id="_fDW9MAYmEeemXYUhnRHxoA" name="CSDD"/>
     <modelElements xsi:type="componentsdd:ComponentStoryDecisionDiagram" xmi:id="_lqvh0AbfEeemXYUhnRHxoA" name="CSDD"/>
+    <modelElements xsi:type="componentsdd:ComponentStoryDecisionDiagram" xmi:id="_ly_mEAkoEeeA451mv2tKhg" name="CSDD"/>
   </categories>
+  <categories xmi:id="_u2Mr8AkoEeeA451mv2tKhg" key="org.muml.pim.behavior.category" name="behavior"/>
 </modelinstance:RootNode>
