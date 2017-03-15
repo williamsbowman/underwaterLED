@@ -59,8 +59,6 @@ void configurePins(void){
   pinMode(BLUE_LED_PIN, OUTPUT);
 }
 
-
-
 void initializeSystem(void){
 
   configurePins();
@@ -168,9 +166,13 @@ void SCFaultState(void){
 	processSCFault();
 }
 
-/////////////
-
-//How to get into these states
+/*! \brief checkState() assigns a new state recommendation based on current events.
+ * 		   The actual state the system gets put into depends what the setState() function deices
+ *
+ * The checkState() function asses the state of the global fault flags and decides what the
+ * new state of the system should be.  The setState() function is responsible for actually
+ * changing the system state.
+ */
 
 States checkState(void){ //this function checks the current inputs and determines the current state
 
@@ -213,9 +215,10 @@ else{
 }
 
 
-////////////
+/*! \brief setState() function actually puts the system into the new state recommended by checkState().
+ *
+ */
 
-//Putting system into these states
 void setState(void){
 
 	static enum States prevState;
