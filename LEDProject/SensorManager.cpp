@@ -30,6 +30,9 @@ float getInputVoltageinV(void){
 	return (int)(analogRead(INPUT_VOLTAGE_PIN)/ADC_RESOLUTION)*ADC_VOLTAGE_REF;
 }
 
+/*! \brief checkSensors() is responsible for for determining if a sensor is out of range or in an
+ * 		   erroneous state and sets the associated sensorFeedback structure flags.
+ */
 void checkSensors(void){
 
 static bool newVoltageFlag = false;
