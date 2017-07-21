@@ -732,8 +732,8 @@ atmegang.menu.cpu.atmega8=ATmega8
 atmegang.menu.cpu.atmega8.upload.maximum_size=7168
 atmegang.menu.cpu.atmega8.upload.maximum_data_size=1024
 
-atmegang.menu.cpu.atmega8.bootloader.low_fuses=0xdf
-atmegang.menu.cpu.atmega8.bootloader.high_fuses=0xca
+atmegang.menu.cpu.atmega8.bootloader.low_fuses=0x64
+atmegang.menu.cpu.atmega8.bootloader.high_fuses=0xd0
 atmegang.menu.cpu.atmega8.bootloader.file=atmega8/ATmegaBOOT-prod-firmware-2009-11-07.hex
 
 atmegang.menu.cpu.atmega8.build.mcu=atmega8
@@ -746,14 +746,16 @@ dauntlessSingle.name = Dauntless Concepts Single Driver
 
 dauntlessSingle.upload.tool=avrdude
 dauntlessSingle.upload.protocol=arduino
-dauntlessSingle.upload.speed=19200
+dauntlessSingle.upload.speed=9600
 
 dauntlessSingle.bootloader.tool=avrdude
+dauntlessSingle.bootloader.file=atmega8/ATmegaBOOT.hex
 dauntlessSingle.bootloader.unlock_bits=0x3F
 dauntlessSingle.bootloader.lock_bits=0x0F
+dauntlessSingle.bootloader.extended_fuses=0x00
 
-dauntlessSingle.build.mcu=atmegang
-dauntlessSingle.build.f_cpu=16000000L
+dauntlessSingle.build.mcu=atmega8
+dauntlessSingle.build.f_cpu=8000000L
 dauntlessSingle.build.board=AVR_NG
 dauntlessSingle.build.core=arduino
 dauntlessSingle.build.variant=standard
@@ -764,9 +766,9 @@ dauntlessSingle.menu.cpu.atmega8=ATmega8
 dauntlessSingle.menu.cpu.atmega8.upload.maximum_size=7168
 dauntlessSingle.menu.cpu.atmega8.upload.maximum_data_size=1024
 
-dauntlessSingle.menu.cpu.atmega8.bootloader.low_fuses=0xdf
-dauntlessSingle.menu.cpu.atmega8.bootloader.high_fuses=0xca
-dauntlessSingle.menu.cpu.atmega8.bootloader.file=atmega8/ATmegaBOOT-prod-firmware-2009-11-07.hex
+dauntlessSingle.menu.cpu.atmega8.bootloader.low_fuses=0xE4
+dauntlessSingle.menu.cpu.atmega8.bootloader.high_fuses=0xD0
+
 
 dauntlessSingle.menu.cpu.atmega8.build.mcu=atmega8
 
@@ -870,4 +872,3 @@ gemma.build.board=AVR_GEMMA
 
 gemma.upload.tool=avrdude
 gemma.upload.maximum_size=5310
-
