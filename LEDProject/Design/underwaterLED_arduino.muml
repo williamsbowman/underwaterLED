@@ -63,22 +63,22 @@
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_wr370AVREeeI17zGpXrajA" name="Main"/>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_1t7gcAVREeeI17zGpXrajA" name="#setGreenLED">
       <ports xsi:type="component:ContinuousPort" xmi:id="_3wDJMAVREeeI17zGpXrajA" name="percent">
-        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_7Z4WoAVREeeI17zGpXrajA" name="setRedLED">
       <ports xsi:type="component:ContinuousPort" xmi:id="_7Z4WoQVREeeI17zGpXrajA" name="percent">
-        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_9bheQAVREeeI17zGpXrajA" name="#setBlueLED">
       <ports xsi:type="component:ContinuousPort" xmi:id="_9bheQQVREeeI17zGpXrajA" name="percent">
-        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#uint8"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_BwZz0AVSEeeI17zGpXrajA" name="#setRGBColors">
       <ports xsi:type="component:ContinuousPort" xmi:id="_vM-fcAVSEeeI17zGpXrajA" name="void">
-        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
       <embeddedComponentParts xmi:id="_cqsQAAVSEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
         <cardinality xmi:id="_cq2BAAVSEeeI17zGpXrajA">
@@ -104,12 +104,12 @@
     </modelElements>
     <modelElements xsi:type="component:StaticAtomicComponent" xmi:id="_Tj6RsAVSEeeI17zGpXrajA" name="setSCIntensity">
       <ports xsi:type="component:ContinuousPort" xmi:id="_VyKR8AVSEeeI17zGpXrajA" name="">
-        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
     </modelElements>
     <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_g6pz4AVTEeeI17zGpXrajA" name="#onConnectFlash">
       <ports xsi:type="component:ContinuousPort" xmi:id="_g6pz4QVTEeeI17zGpXrajA" name="void">
-        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
       <embeddedComponentParts xmi:id="_g6pz4gVTEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
         <cardinality xmi:id="_g6pz4wVTEeeI17zGpXrajA">
@@ -135,7 +135,7 @@
     </modelElements>
     <modelElements xsi:type="component:StaticStructuredComponent" xmi:id="_nRy8IAVTEeeI17zGpXrajA" name="#onDisconnectFlash">
       <ports xsi:type="component:ContinuousPort" xmi:id="_nRy8IQVTEeeI17zGpXrajA" name="void">
-        <dataType xsi:type="types:PrimitiveDataType" href="../../../plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
+        <dataType xsi:type="types:PrimitiveDataType" href="platform:/plugin/org.muml.pim.types/model/predefined.mumltypes#void"/>
       </ports>
       <embeddedComponentParts xmi:id="_nRy8IgVTEeeI17zGpXrajA" name="C1" componentType="_9bheQAVREeeI17zGpXrajA">
         <cardinality xmi:id="_nRy8IwVTEeeI17zGpXrajA">

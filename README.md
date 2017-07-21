@@ -11,3 +11,5 @@ Documentation can be found in the html and latex folders; after Eclox generates 
 
 MechatronicUML was used to generate design documentation
 
+Scilab 5.5.2 with xcos visual (simulink type tool) was used to generate control code and for unit testing
+
